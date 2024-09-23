@@ -2,5 +2,4 @@
 venv/
 *.pyc
 *.pyo
-*.log
 *.DS_Store

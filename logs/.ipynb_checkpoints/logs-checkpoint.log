@@ -1,0 +1,4 @@
+2023-06-19 10:26:47 - INFO - -------------------------------------- Churn Program Calling (churn_program) Started ..
+2023-06-19 10:26:47 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2023-06-19 10:26:47 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2023-06-19 10:26:48 - ERROR - (SalesforceAPI.authenticate) Connecting to Salesforce API failed : Client Side Error - 400
