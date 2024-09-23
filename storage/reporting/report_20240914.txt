@@ -1,0 +1,9 @@
+_________________________________ CATEGORY = 🎮 Activities _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Daily Coding Problem Good morning! Here&#39;s your coding interview problem for today. This problem was asked by Uber. Given a tree where each edge has a weight, compute the length of the longest path
+𝐅𝐑𝐎𝐌 : founders@dailycodingproblem.com
+𝐃𝐀𝐓𝐄 : 2024-09-13 19:21:45
+
+- The problem is about finding the longest path in a tree with weighted edges.
+- The example tree given consists of nodes a, b, c, d, e, f, g, h with specified weights for each edge.
+- The longest path in the example tree would be c -> a -> d -> f, with a length of 17.
+- The path does not have to pass through the root, and each node can have any number of children.

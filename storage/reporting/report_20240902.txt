@@ -1,0 +1,30 @@
+_________________________________ CATEGORY = technology _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Hi, Discover the cutting-edge world of LlamaIndex: Building a Smarter RAG-Based Chatbot, and see how it can revolutionize your projects! Image 🔍 Introduction Greetings, Tech Enthusiasts! Embark on a
+
+𝐅𝐑𝐎𝐌 : adrian@pyimagesearch.com
+
+• Discover the cutting-edge world of Llama Index: Building a Smarter RAG-Based Chatbot and revolutionize your projects! Llama Index acts like a spellbook organizer, ensuring AI wizards retrieve precise data swiftly. It's more than a tool; it's a game-changer in AI interaction and learning. While mastery takes time, using Llama Index promises mythical efficiency and insight in your wizarding career!🔍🛠🧠🤔📚
+
+_________________________________ CATEGORY = world _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : PLUS: Will Rektember repeat this year? Here&#39;s what to look out for this month! 👀 ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+
+𝐅𝐑𝐎𝐌 : newsletter@mail.milkroad.com
+
+• The text delves into various crypto investment strategies, highlighting the 80/20 BTC-ETH split as a high performer with a 190% return, emphasizing simplicity over complexity. It touches on a BTC solo strategy yielding a 226% return, a buy-the-dip approach turning $10K into $48,300, and a diversified BTC-ETH-SOL strategy boasting a 620% return, emphasizing timing and asset selection. Additionally, it previews upcoming market events affecting portfolios and the potential impact of September on Bitcoin. Overall, it advocates for straightforward strategies and proactive market monitoring in the crypto investment landscape. 📈🔥
+
+• The text highlights upcoming conferences such as Korea Blockchain Week and TOKEN2049 in Singapore, emphasizing their role in sharing positive crypto news, showcasing innovations, and potentially attracting greater investments. Conferences serve as platforms for companies and projects to generate excitement and display their latest developments within the crypto space.🎤🌐
+
+_______________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Manage your newsletters with your account Today Brussels urges Mongolia to comply with ICC request and arrest Putin during official visit Vladimir Putin has been accused of engineering the unlawful
+
+𝐅𝐑𝐎𝐌 : newsletters@account.euronews.com
+
+• Brussels urges Mongolia to comply with ICC request to arrest Putin during official visit amid accusations of engineering unlawful deportation of Ukrainian children to Russia, showcasing a diplomatic issue 🇧🇪🇷🇺. Gender balance in EU Commission posts highlighted as Belgium and Romania propose women after missing initial deadline set by President Ursula von der Leyen 🇧🇪🇷🇴. Hungary faces a fine and asylum restrictions from Brussels, while Titanic statue resurfaces with new images unveiled by RMS Titanic Inc. 🚢🇭🇺. Increased costs for Czech parents as school year starts, with rising education-related expenses posing challenges for vulnerable families 🇨🇿👨‍👩‍👧.
+
+_________________________________ CATEGORY = activities _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Daily Coding Problem Good morning! Here&#39;s your coding interview problem for today. This problem was asked by Squarespace. Write a function, add_subtract , which alternately adds and subtracts
+
+𝐅𝐑𝐎𝐌 : founders@dailycodingproblem.com
+
+• Write a function, add_subtract, which alternately adds and subtracts curried arguments. Sample operations include add_subtract(7) -> 7, add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0, and add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11. Upgrade to premium for in-depth solutions to every problem. Practice makes perfect - book a mock interview today with a FAANG-level interviewer from Exponent (10% off!). System design interviews are becoming more popular in SWE interviews.👩‍💻
+

@@ -1,0 +1,64 @@
+## ========================== Modules (required in this order)
+wheel
+setuptools==68.2.2
+futures==3.1.1
+pycryptodome
+pyarrow==17.0.0
+click
+
+
+## ========================== Framework (required)
+PyYAML
+dataset==1.1.2
+m3
+pyyaml
+flake8
+pytest
+coverage
+requests
+
+## ========================== Basic Modules for APIs (required)
+retry
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib==0.4.1
+oauth2client
+tiktoken
+openai
+python-telegram-bot==13.7
+telegram
+schedule
+
+
+## ========================== Basic Modules
+numpy
+pandas
+pandas_gbq
+tqdm
+ipython
+ipykernel
+tabulate
+pretty_html_table
+ujson
+bs4
+
+## ========================== Basic Modules for APIs
+langid
+
+## ========================== Basic Modules for Machine Learning
+scipy
+scikit-learn
+imblearn
+pyspark==3.0.2
+statsmodels
+skrebate
+xgboost
+lime
+shap
+pactools
+
+## ========================== Basic Modules for Visualizations
+missingno
+mlxtend
+plotly
+seaborn

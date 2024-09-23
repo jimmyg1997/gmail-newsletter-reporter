@@ -1,0 +1,11 @@
+_________________________________ CATEGORY = 🎮 Activities _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Daily Coding Problem Good morning! Here&#39;s your coding interview problem for today. This problem was asked by Stripe. Write a map implementation with a get function that lets you retrieve the value
+𝐅𝐑𝐎𝐌 : founders@dailycodingproblem.com
+𝐃𝐀𝐓𝐄 : 2024-09-10 19:20:28
+
+- Create a map implementation with set and get functions.
+- The set function sets a key to a value at a specific time.
+- The get function retrieves the key at a given time.
+- The map should maintain the value until it gets updated at a later time.
+- Examples are provided to demonstrate the functionality.
+- Practice with mock interviews to prepare for system design interviews.

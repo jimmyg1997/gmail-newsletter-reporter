@@ -1,0 +1,11 @@
+_________________________________ CATEGORY = 🎮 Activities _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Daily Coding Problem Good morning! Here&#39;s your coding interview problem for today. This problem was asked by Dropbox. Given an undirected graph G, check whether it is bipartite. Recall that a graph
+𝐅𝐑𝐎𝐌 : founders@dailycodingproblem.com
+𝐃𝐀𝐓𝐄 : 2024-09-16 19:22:47
+
+- The coding interview problem for today is about checking whether an undirected graph is bipartite.
+- A graph is bipartite if its vertices can be divided into two independent sets U and V with no edge connecting vertices of the same set.
+- To receive in-depth solutions to this problem and others, upgrade to premium.
+- Practice makes perfect, book a mock interview with a FAANG-level interviewer today.
+- System design interviews are becoming more popular in software engineering interviews.
+- Consider preparing for them to improve your chances in interviews.

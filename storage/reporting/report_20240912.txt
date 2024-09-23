@@ -1,0 +1,12 @@
+_________________________________ CATEGORY = 🎮 Activities _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Daily Coding Problem Good morning! Here&#39;s your coding interview problem for today. This problem was asked by LinkedIn. Given a set of characters C and an integer k , a De Bruijn sequence is a
+𝐅𝐑𝐎𝐌 : founders@dailycodingproblem.com
+𝐃𝐀𝐓𝐄 : 2024-09-11 19:28:09
+
+- Problem asked by LinkedIn, finding a De Bruijn sequence.
+- De Bruijn sequence is a cyclic sequence with all k-length strings.
+- Example: C = {0, 1}, k = 3, solution could be 00010111.
+- Algorithm needed to find a De Bruijn sequence effectively.
+- Premium upgrade offers in-depth solutions to problems, including this one.
+- Practice mock interviews with top-level interviewers for better preparation.
+- System design interviews are gaining popularity in SWE interviews.

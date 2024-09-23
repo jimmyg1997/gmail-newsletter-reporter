@@ -1,0 +1,13 @@
+_________________________________ CATEGORY = 🎮 Activities _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Daily Coding Problem Good morning! Here&#39;s your coding interview problem for today. This problem was asked by Google. Given two strings A and B, return whether or not A can be shifted some number of
+𝐅𝐑𝐎𝐌 : founders@dailycodingproblem.com
+𝐃𝐀𝐓𝐄 : 2024-09-14 19:14:16
+
+- Google asked a problem about shifting strings A and B.
+- Determine if A can be shifted some number of times to get B.
+- Example: A is abcde, and B is cdeab, return true.
+- If A is abc and B is acb, return false.
+- Premium upgrade offers in-depth solutions to coding problems.
+- Practice mock interviews with FAANG-level interviewers for preparation.
+- System design interviews are becoming popular in software engineering interviews.
+- Offer to snooze or unsubscribe from further emails.

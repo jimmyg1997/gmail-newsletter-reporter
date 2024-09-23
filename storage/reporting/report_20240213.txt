@@ -1,0 +1,170 @@
+_______________________________________________ CATEGORY = technology _______________________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Dimitris Georgiou Stories for Dimitris Georgiou @dimitrisgeorgiou·Become a member Medium daily digest Today&#39;s highlights Peter Diamandis Peter Diamandis· 4 min read Will AI Replace All Coders? Will
+
+𝐅𝐑𝐎𝐌 : noreply@medium.com
+
+• Today's highlights feature discussions on the potential replacement of coders by AI, the complexity of LLMs and their implications, the AI fraud epidemic, and the availability of AI applications for chatting with SQL databases. 🤖💻 The text underlines the importance of understanding AI's impact on various fields such as coding, data science, and digital transformation, highlighting the need for businesses to adapt to stay efficient and competitive in the rapidly evolving technological landscape.
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Plus: Google&#39;s Gemini is now in everything. MIT Technology Review Subscribe for $8/month The Algorithm By Melissa Heikkilä • 2.12.24 Welcome back to The Algorithm! This week I am happy to bring you
+
+𝐅𝐑𝐎𝐌 : newsletters@technologyreview.com
+
+• Google has integrated Gemini across its products, introducing Gemini Ultra as the most powerful model. Also, Bard ChatGPT is being replaced by Gemini, aiming to surpass OpenAI. Industry-wide standards like C2PA are being implemented to detect AI-generated content, with Google including SynthID watermark. These steps, despite challenges like tampering, aim to enhance content authenticity and are crucial amidst rising AI use. 🌐🔍
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : PLUS: Sam Altman seeks world domination? ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+
+𝐅𝐑𝐎𝐌 : bot-eat-brain@mail.beehiiv.com
+
+• The text discusses various AI-related topics such as AI safety regulations, AI alliances, and an AI model named Goody-2 that humorously avoids answering questions to emphasize ethical considerations over utility. Sam Altman seeks to raise up to $7 trillion to advance AI infrastructure. Additionally, a startup launched Goody-2 to encourage top AI firms to prioritize helpfulness, showcasing the challenges of balancing responsibility and usefulness in AI development. The text also mentions innovative AI glasses and wearable devices, highlighting advancements in AI technology and industry developments. 🤖🔬
+
+_______________________________________________ CATEGORY = investing _______________________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Also, Aston Martin in discussion with bankers over debt strategy, Macquarie&#39;s high-earner bids farewell and Travel giant TUI smashes earnings expectations. Good morning! 👋 Start your morning with
+
+𝐅𝐑𝐎𝐌 : hello@wealthyhood.com
+
+• Morgan Stanley's wealth management division is under the Federal Reserve's scrutiny due to concerns about illegal money movements, while China sees price drops in consumer goods signaling economic recovery challenges. Microsoft's stock peaks after OpenAI's spotlight moment, reflecting investor confidence amidst Fed's interest rate policy. Solid-state lithium battery technology is hailed as the future for EVs, promising longer ranges and faster charging times, with companies like Toyota and Nissan making strides toward commercialization. Investing in solid-state battery technology or related lithium producers could be lucrative but comes with risks. Ultimately, this technology could disrupt the EV market, making it a potentially attractive investment opportunity 📈🔋.
+
+• The text discusses uncertainties surrounding a company's complacency due to its lead in lithium-ion batteries, hinting at reasons such as Elon Musk's view on EV range importance. It emphasizes the need for personal circumstances consideration in investment decisions. 👀
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Ήρθε η στιγμή να λάμψουν; Με Μια Ματιά... Ανάμεικτη η Δευτέρα. Οι αμερικανικές μετοχές έκλεισαν με μικτά πρόσημα εχθές, καθώς η Wall Street πήρε μια μικρή ανάσα μετά από μια ιστορική πορεία που είδε
+
+𝐅𝐑𝐎𝐌 : news@tsounischris.gr
+
+• Η Wall Street επηρεάζεται από επενδυτικές αποφάσεις της FED, με την ανάμεικτη αντίδραση των αγορών. Οι REITs ανακάμπτουν, ενώ η ανάλυση δείχνει μεγάλες εταιρίες όπως η VF και η Diamondback Energy σε θετικό φως. Το Telegram Group παρέχει συζητήσεις και αναλύσεις από Financial Greeks. Συνοπτικά, η αγορά δείχνει ανάμεικτες τάσεις με ενδείξεις ανόδου και πτώσης σε διάφορους κλάδους. 📈📉
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : The oil industry found another billion-dollar giant | Germany&#39;s office building market had its worst year on record | Finimize TOGETHER WITH Hi Δημήτρης, here&#39;s what you need to know for
+
+𝐅𝐑𝐎𝐌 : hello@finimize.com
+
+• Diamondback Energy and Endeavor Energy closed in on a $50 billion merger, shaping a major player in the oil and gas industry. Germany's office building market faced a significant decline, impacting its value by 40%. The consolidation signifies the industry trend towards enhancing capabilities and profits but also facing challenges due to economic shifts.💎🏢📉
+
+• In 2024, Future-Proof Your Portfolio With Artificial Intelligence at 1 PM on February 26th. Share with a friend at 5 PM on February 27th. Crafted by Finimize Ltd., all content is for informational and educational purposes. Email preferences can be updated or changed, and unsubscribing from all Finimize emails is an option. Stay informed but remember content does not represent trade or investment recommendations. 🤖📈
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Hi, This is your final chance to save $124/year on the Sure Retirement Newsletter (SR) and see the top 10 stocks with high 4%+ dividend yields for your retirement portfolio at a deep discount. This is
+
+𝐅𝐑𝐎𝐌 : support@suredividend.com
+
+• Don't miss out on the final chance to save $124/year on the Sure Retirement Newsletter! This limited-time offer includes top 10 stocks with high 4%+ dividend yields for your retirement portfolio at a deep discount. Secure a deeply discounted annual price of $75 with a price lock guarantee and a risk-free trial. Act before 6:00 PM CST today to benefit! 💰📈
+
+_______________________________________________ CATEGORY = world _______________________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : How your credit score impacts your dating prospects... February 13, 2024 View Online | Sign Up | Shop Morning Brew PRESENTED BY Read Write Own by Chris Dixon Good morning. Today is Mardi Gras, the
+
+𝐅𝐑𝐎𝐌 : crew@morningbrew.com
+
+• Your credit score can impact your dating prospects! Neon Money Club has launched Score, a dating app for singles with credit scores of 675 or above. The app aims to connect individuals with good financial habits. This innovative approach highlights the importance of financial responsibility in relationships, transforming how credit scores influence dating.📈💕
+
+• Score is a social experiment aiming to make people feel more comfortable discussing money in their relationships and better understand personal finance. Applicants not selected receive resources to improve credit scores. High credit scores correlate with serious relationships, as per Federal Reserve research. Financial literacy, especially among Gen Z, shows a growing interest in financial compatibility. Despite Score's short duration, it's impactful, unlike a mere stunt, reflecting changing relationship and financial dynamics. Financial awareness is rising, with examples like singles sharing credit scores on dating profiles. 🌟📊👩‍❤️‍👨
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : PLUS: Another BIG milestone for ETH ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+
+𝐅𝐑𝐎𝐌 : newsletter@mail.milkroad.com
+
+• Bitcoin has surged, breaking into the top 10 assets globally with a 13.5% gain last week, hitting $48,300, the highest weekly close since 2021. Additionally, Ethereum staking has hit a milestone with 25% of all ETH staked, leading to a 30M ETH lockup. The crypto newsletter mentions Bitcoin's success, ETH staking records, penguin NFTs, Xbox's web3 gaming, and Solana's 100k phone orders as key highlights in the crypto world 🚀📈🐧🎮🍪.
+
+• The content is strictly educational and not financial advice or a solicitation to trade assets. 🚫💰 It emphasizes the importance of conducting personal research before making any financial decisions, urging caution to the readers. The text is clear about its purpose and the limitations of the information provided.
+
+_______________________________________________ CATEGORY = fitness _______________________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Good morning and welcome to the Morning Chalk Up. In today&#39;s edition: Meet Team Peak Does being a CrossFit national champ correlate with Games performance? Lauren Kalil became the first woman to
+
+𝐅𝐑𝐎𝐌 : info@morningchalkup.com
+
+• Noah Ohlsen and Team Peak are gearing up for the 2024 CrossFit Games season, uniting with impressive backgrounds and high hopes. Ohlsen, transitioning from individual competitions to team division, expresses excitement and readiness for the unique challenge. The team, training intensely at Peak 360 in Miami, is coached by Joakim Rygh and focuses on group dynamics, with Morakinyo leading strength training. With a strong bond and shared experience, Team Peak is poised to be a formidable contender, aiming for success through teamwork and dedication.🏋️‍♂️🔥
+
+• The event is set for April 21, 2024, starting at 9 AM – Register now! Four top-10 athletes from 2023 will compete against 24.1 soon. The CrossFit Games Member Exclusive discusses the title of the fittest person in each country, contrasting national champions’ success with their performance at the Games. Lauren Kalil becomes the first woman to do play-by-play at a major CrossFit event, marking a significant breakthrough for women in the media space. Despite challenges, Kalil's journey highlights perseverance and passion.🏋️‍♂️🎙️
+
+_______________________________________________ CATEGORY = technology _______________________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : By feeding GANs and autoencoders large volumes of video footage and photos, it is possible to create digital representations of targets individuals wish to impersonate. ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌
+
+𝐅𝐑𝐎𝐌 : lex@substack.com
+
+• Deepfake cybercrime is on the rise with a 550% increase in deepfake content globally from 2019 to 2023, posing serious threats. The advancement of Generative Adversarial Networks (GANs) fuels this technology, creating undetectable fake images and videos through neural networks. Despite negative attention, Apple's Vision Pro headset uses deepfake processes to generate lifelike avatars, highlighting both the potential and risks associated with deepfake technology. There's a need for vigilance, ethics, and collective responsibility to mitigate potential harms as deepfakes become more prevalent. 🕵️‍♂️👾🔍
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Chinese tech companies give out millions of dollars every year, turning a festive tradition into a growth tactic. MIT Technology Review Subscribe for $8/month China Report By Zeyi Yang • 02.13.2024
+
+𝐅𝐑𝐎𝐌 : newsletters@technologyreview.com
+
+• Chinese tech companies have turned the traditional festive tradition of giving out red packets full of cash into a growth tactic, distributing millions of dollars each year. The evolution of this tradition into a digital age phenomenon has not only transformed the act from physical to digital but has also become a lucrative way for tech companies to attract users and make money. Over the years, red packet promotions have become more complex, with users now having to engage in various tasks to receive rewards, showcasing the gamification tactics prevalent in China's mobile internet industry. 🧧💰
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Buzzsprout Hi Podcasters! Here&#39;s your weekly roundup of blogs, podcasts, &amp; videos to improve your craft! Two speech bubbles What the Best Podcasts Have in Common A new study from Pew Research
+
+𝐅𝐑𝐎𝐌 : support@buzzsprout.com
+
+• Top-rated podcasts have a common trait - 76% bring on guests, significantly impacting show growth by exposing it to new audiences. While interviewing guests may seem daunting, asking engaging questions is key for success. Find the best questions in the blog post to nail interviews and keep listeners hooked. Furthermore, TikTok's impact on business and effective podcast marketing strategies are covered, shedding light on untapped marketing opportunities and understanding successful podcast strategies. 🎙️📈
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : PLUS: Sam Altman seeks world domination? ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+
+𝐅𝐑𝐎𝐌 : bot-eat-brain@mail.beehiiv.com
+
+• Sam Altman is seeking to raise up to $7 trillion to advance AI infrastructure, aiming to create more AI chip factories, a supply network, data centers, and more. Through negotiations with various investors like Softbank's CEO and TSMC, Altman aims to increase the world's capacity to build AI infrastructure, sparking interest and skepticism in equal measure 😳💰.
+
+_______________________________________________ CATEGORY = investing _______________________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Magic mushrooms are entering the workplace • AI is training employees on AI… ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌
+
+𝐅𝐑𝐎𝐌 : team@learn.mail.monday.com
+
+• 🍄Magic mushrooms are making their way into the workplace, with some working women utilizing psychedelics for mental health benefits and work-life balance. AI is now training employees, with generative AI driving investments in corporate programs. Companies like Johnson & Johnson and Cisco are incorporating AI-enabled tools for upskilling, such as AI chatbots and personalized feedback algorithms. Meta is labeling AI-generated images to combat misinformation, especially during the upcoming election season. Conflict resolution is crucial in the workplace; open communication and leading with questions can help managers address conflicts involving their team members effectively.🤖
+
+• To effectively manage conflicts, it's crucial to listen and gather all information before reacting impulsively. Encourage team members to take ownership of resolving conflicts, emphasizing learning opportunities. Stay objective to guide discussions based on facts, enhancing problem-solving skills and collaboration. Celebrate healthy resolutions and foster constructive dialogue and resolution. Encourage employee empowerment through intentional questions and acknowledging their role in addressing issues. Prioritize constructive resolutions to improve relationships and decision-making. 🤝
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : AI doubles its impact and Gaming overtakes Windows ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+
+𝐅𝐑𝐎𝐌 : appeconomyinsights@substack.com
+
+• Microsoft's recent Q2 FY24 report highlights their shift from talking about AI to applying it at scale, making a significant impact. With revenue growing impressively year-over-year, the company's cloud offerings like Microsoft Cloud and Azure are key drivers, representing a large portion of total revenue. Segments like Gaming and Office products show substantial growth, indicating a diverse revenue stream. The report breaks down revenue by significant products and services, showcasing consistent growth across various sectors. Microsoft's strategic AI initiatives and revenue growth depict a strong performance and unique positioning in the tech industry. 🌐📈🎮
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Coupon: 55% off - Expires in 3 days. You stay classy, Δημήτρης 😉 All content provided by Finimize Ltd. is for informational and educational purposes only and is not meant to represent trade or
+
+𝐅𝐑𝐎𝐌 : hello@finimize.com
+
+• Get 55% off with the coupon expiring in 3 days! Stay classy. Information provided by Finimize Ltd is for educational purposes only and not for trade or investment recommendations. To stop these emails, unsubscribe or turn off all Finimize emails, including the Daily Brief. 🎉
+
+_______________________________________________ CATEGORY = world _______________________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Manage your newsletters with your account Today Israel Hamas war: South Africa urges UN court intervention over Rafah, hostage operation, Gaza deal All the latest developments from the Israel Hamas war
+
+𝐅𝐑𝐎𝐌 : newsletters@account.euronews.com
+
+• 🌍 Important developments include South Africa urging UN court intervention in Israel-Hamas war, Russia putting Estonia's PM on a 'wanted' list, US Senate passing Ukraine aid, Greek lawmakers voting on same-sex marriage, and climate-driven migration becoming a top security concern over Russian aggression. Also, Poland, France, and Germany vow to strengthen Europe amidst fears of Russia and Trump, while methane leaks in Europe pose a threat to net-zero targets. Volcanic eruption in Iceland subsides, and a video of the day showcases this event. These key events highlight global political, environmental, and social issues. 🌐
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : PLUS: this town is launching its own token... ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+
+𝐅𝐑𝐎𝐌 : newsletter@mail.milkroad.com
+
+• The text discusses the launch of a new stablecoin in a Polish town called Minsk Mazowiecki, aiming to be shopper-friendly money accepted by 10 local businesses. Additionally, the institutional floodgates are wide open as institutional money continues flowing into crypto-related products, with $1.1 billion invested last week, bringing total assets under management to $59 billion, while Bitcoin leads in inflows. 🪙👀
+
+• Ledger partners with Coinbase for streamlined crypto purchases, enabling easy acquisition and transfer into self-custody storage. Franklin Templeton ventures into launching a spot ETH ETF, showing interest in staking ETH held by the proposed fund. Puffer Finance reaches $850M in total value locked, becoming the second-largest liquid staking protocol. FTX's bankruptcy estate plans to sell a recently acquired business for a 95% loss. Ethiopia's affordable electricity attracts mining companies, legalizing Bitcoin mining in 2022, despite banning crypto trading.🔗📊
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : A8inea ΤΡΙΤΗ 13 ΦΕΒΡΟΥΑΡΙΟΥ 2024 VIEW IN BROWSER www.a8inea.com ΕΓΓΡΑΦΗ DAILY Today&#39;s wordcount: 1121 = 6 λεπτά ανάγνωσης Year of the Dragon της Δέσποινας Ράμμου Είναι γεγονός, μπήκαμε στη Χρονιά
+
+𝐅𝐑𝐎𝐌 : a8inea@a8inea.com
+
+• Το 4722 μ.Χ., η Κινεζική Πρωτοχρονιά σηματοδοτείται από τον δράκο, ο οποίος θεωρείται σύμβολο επιτυχίας. Μια κινεζική μυθολογία αναφέρει πως ο δράκος είναι φοιτητής της χρονιάς, με κύριο χαρακτηριστικό την αναδυόμενη ενέργειά του. Με τη διάρκεια της χρονιάς, παρουσιάζει διάφορες μορφές για την επιτυχία της κοινότητας. Οι νεότεροι γονείς έχουν προκληθεί να ενθαρρύνουν τη δημοφιλή παράδοση δημιουργώντας έναν μικρό δράκο στην οικογένεια τους. 🐉
+
+• Οι οικονομολόγοι Naci Η Mocan και Han Yu προβλέπουν αύξηση στις γεννήσεις θα οδηγήσει σε πιο δύσκολες συνθήκες για τα παιδιά. Το Πρόγραμμα του ΟΗΕ για το Περιβάλλον αναφέρει ότι το 22% των κατηγοριών ζώων αντιμετωπίζει αυξανόμενη εξάντληση. Νέες προτάσεις από το Τάμειο Ενεργειακής Μετάβασης και το ΕΝΦΙΑ αναδεικνύουν τη σημασία της αειφόρου ανάπτυξης. Ο Joe Biden προέβη σε προσπάθειες για ανακούφιση των ελλείψεων στο Ισραήλ και τη Χαμάς. Επίσης, ο Benjamin Netanyahu προτείνει λύσεις για την ανάγκη αποκατάστασης του οικολογικού ισοζυγίου. 🌍🌱🐾
+
+• Η Βενεζουέλα αντιμετωπίζει σοβαρή κρίση, ενώ η Ευρώπη αναδύεται ως κέντρο streaming μουσικής. Οι προοπτικές του καρκίνου και η εκπομπή Brave New Cities είναι επίκαιρα θέματα. Προβληματισμός περί κληρονομιάς και τεχνητής νοημοσύνης διερεύνωνται μέσα από μια ποικίλη προγραμματική σύνθεση. Το ΕΕ επιδιώκει να ενθαρρύνει την καινοτομία για τη δημιουργία μιας νέας Ελλάδας. 🎶🔬📺🌍
+
+• Το κείμενο αφορά τη θηλυκή επιχειρηματικότητα με έμφαση στην εκπαίδευση νέων στην τεχνολογία. Η Αμαλία Κωνσταντακοπούλου παρουσιάζεται ως σημαντική φιγούρα στον χώρο, ενώ η συνέντευξη με τον ιδρυτή του Tipping Point αναδεικνύει τη σημασία της εκπαίδευσης και του mentoring. Η πλατφόρμα επιτρέπει την ανταλλαγή απόψεων και ιδεών με επαγγελματίες από διάφορους κλάδους, ενώ παρουσιάζει επιτυχημένες γυναικείες μονάδες και προσφέρει προτάσεις για νέες ιδέες. 🌟🚀
+
+• Η αύξηση του ζωδιακού εμερολογίου σε πολλές χώρες, όπως η Κίνα, η Ταϊβάν, το Χονγκ Κονγκ και η Σιγκαπούρη, οφείλεται στα κρεβάτια των νοσοκομείων. Το 2012, ένα μαιάνδρι από την Ταϊπέι αναφέρει κρεβάτια γεμάτα νοσοκόμεια λόγω αυξανόμενων περιστατικών. Ο Hank, ένα μορφωμένο δράκος που ενίσχυε το 2000 σε μια μικρή πόλη της Κίνας, ήταν ένας αγορί-δράκος στην οικογένεια και όλοι οι ενήλικες προσδοκούν από κοινού να γεννήσουν παιδιά που θα γεννηθούν. 🐉
+
+____________________________________
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Gun violence ... Nor&#39;easter ... Trump ... TikTok ... Moon mission ... ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+
+𝐅𝐑𝐎𝐌 : 5things@newsletters.cnn.com
+
+• Your email client may not support HTML formatting, try opening it in another email client or view it in a browser using the provided link. If you no longer wish to receive emails, you can unsubscribe by opening the link in a browser. 📧🔗
+
+

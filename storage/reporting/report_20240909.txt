@@ -1,0 +1,286 @@
+_________________________________ CATEGORY = 🤖 Technology _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Hi, Discover the cutting-edge world of LLMOps with DSPy: Build RAG Systems Using Declarative Programming, and see how it can revolutionize your projects! Image 🚀 Introduction Imagine a kitchen where
+𝐅𝐑𝐎𝐌 : adrian@pyimagesearch.com
+𝐃𝐀𝐓𝐄 : 2024-09-09 13:51:10
+
+## Summary:
+Explore the cutting-edge world of LLMOps with DSPy, a tool that revolutionizes Large Language Models by simplifying task tuning, refining models effortlessly, and enabling seamless development and deployment.
+
+- DSPy streamlines the use of Large Language Models by removing the need for prompt tuning
+- Allows developers to refine and deploy models effortlessly
+- Setting up a RAG system with DSPy is akin to assembling a high-tech LEGO set, with DSPy guiding the process for optimal performance
+
+DSPy acts as a GPS for programming language models, eliminating manual prompt tuning and enhancing the creative process, although developer expertise remains crucial. Embrace tools like DSPy to work smarter in the field of LLMOps and tackle bigger problems with creativity.
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : PLUS: AI designs super-proteins ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+𝐅𝐑𝐎𝐌 : bot-eat-brain@mail.beehiiv.com
+𝐃𝐀𝐓𝐄 : 2024-09-09 12:07:29
+
+## Summary:
+Good morning, human brains! Today's AI news menu includes AI-powered Super Mario and AI designs super-proteins revealed by Virtual Protocols and Google DeepMind, respectively.
+
+## Key Points:
+- Virtual Protocols unveiled MarioVGG, a text-to-video AI model for Super Mario Bros gameplay.
+- MarioVGG is an AI system that generates playable versions of Super Mario Bros using video generation, not traditional game code.
+- It generates game video based on simple text commands like "run" or "jump," simulates game physics, mimics Mario's movements, and creates new procedurally generated levels.
+- Trained surprisingly quickly on a single Nvidia RTX 4090 GPU using 737,000 gameplay frames.
+- Limitations include being slow, low-res, not always following game rules, and continuing gameplay after Mario dies.
+- Virtual Protocols sees it as the start of "the era of infinite interactive worlds," suggesting a future of AI-generated games.
+- Google DeepMind unveiled AlphaProteo, an AI system that designs custom proteins to stick to specific molecular targets.
+- AlphaProteo is significantly better at making strong-binding proteins than current methods, with some designs showing potential in stopping COVID-19 from infecting cells.
+- DeepMind is working to improve AlphaProteo for tackling tough protein design challenges and advancing drug discovery.
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Today is the last day to save 25% on PyImageSearch University. You can join PyImageSearch University for 25% off at just $29.25/mo. CLICK HERE TO JOIN NOW Normally, PyImageSearch University is only
+𝐅𝐑𝐎𝐌 : adrian@pyimagesearch.com
+𝐃𝐀𝐓𝐄 : 2024-09-09 12:03:17
+
+Summary:
+Today is the last day to save 25% on PyImageSearch University by joining for $29.25/month. The university offers comprehensive courses, pre-configured Jupyter Notebooks, certifications, real-world projects, and expert support. Don't miss the opportunity to avail of the discount by joining now.
+
+Key Points:
+- PyImageSearch University available for $29.25/month with a 25% discount until midnight Eastern time today
+- Access 86 comprehensive courses and 540+ tutorials
+- Pre-configured Jupyter Notebooks for hassle-free setup
+- Earn 94 certificates of completion to showcase skills on LinkedIn
+- Apply learning immediately with production-ready code and detailed video walkthroughs
+- Get expert support from a community of learners and professionals
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Never waste time on complicated tech setups... ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+𝐅𝐑𝐎𝐌 : adrian@pyimagesearch.com
+𝐃𝐀𝐓𝐄 : 2024-09-08 14:02:00
+
+Summary:
+Spending hours on tedious setups can be frustrating, as experienced when diving into a new computer vision project. PyImageSearch University offers easy access to learning and building, eliminating setup hassles and technical hurdles, allowing for a seamless learning experience. With over 115 hours of video content, 86 courses, and 540 tutorials, PyImageSearch University equips learners with everything needed to master computer vision and deep learning, making it the go-to resource in the field.
+
+Key Points:
+- Tedious setups can hinder learning and building processes.
+- PyImageSearch University provides pre-configured access for seamless learning and coding.
+- Offers comprehensive courses covering computer vision and deep learning, with a vast library of video content and tutorials.
+- Eliminates technical obstacles, enabling learners to focus on mastering concepts efficiently.
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Hey, in this issue: finance jobs face acute AI threat; how to avoid being… ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏
+𝐅𝐑𝐎𝐌 : newsletters-noreply@linkedin.com
+𝐃𝐀𝐓𝐄 : 2024-09-07 19:41:38
+
+## Summary:
+Andriy Burkov presents an article on Artificial Intelligence, discussing topics such as finance jobs facing AI threats, avoiding deception by AI-generated misinformation, the potential humor in AI, implications of causality in AI, a database of over 700 AI risks from MIT, and more. The sponsors for this issue are AtScale and True Positive Inc. Various AI-related subjects are covered, including the challenges and benefits of centralized, decentralized, and hybrid data team models. Additionally, the newsletter addresses the question of whether AI can be genuinely funny.
+
+- Finance jobs at risk from AI
+- Strategies to avoid being misled by AI-generated misinformation
+- Humor in AI: Can artificial intelligence be genuinely funny?
+- Implications of causality in AI
+- Database of over 700 AI risks categorized by cause and risk domain
+- Various topics discussed in the newsletter, including finance, data teams, and AI humor
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : What if you could master computer vision and deep learning without the headache of complex math or endless frustration? No more feeling stuck, overwhelmed, or lost in complicated algorithms. Because
+𝐅𝐑𝐎𝐌 : adrian@pyimagesearch.com
+𝐃𝐀𝐓𝐄 : 2024-09-07 13:04:34
+
+Summary:
+Mastering computer vision and deep learning without the complexity of math or frustration is now possible with PyImageSearch University. By simplifying the learning process through high-quality video tutorials, providing ready-to-use code, and emphasizing hands-on projects, PyImageSearch makes learning straightforward and enjoyable. For a limited time, you can join PyImageSearch University for a discounted monthly rate of $29.25, offering valuable resources for practical application in computer vision.
+
+Key Points:
+- PyImageSearch University offers a clear path to mastering computer vision and deep learning
+- Access high-quality video tutorials to simplify complex topics
+- Utilize pre-configured Colab Notebooks for instant coding and learning
+- Engage in hands-on projects to apply theoretical concepts immediately
+- Discounted monthly rate of $29.25 available for a limited time
+- Valuable resource for practical application in computer vision and deep learning.
+_________________________________ CATEGORY = 🚀 Investing _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Good morning long-term investors, Your deep discount offer for the Sure Retirement Newsletter lifetime plan expires at 1:00 PM CDT today. The details of this special lifetime offer are below. Price ​
+𝐅𝐑𝐎𝐌 : ben@suredividend.com
+𝐃𝐀𝐓𝐄 : 2024-09-09 10:30:40
+
+**Summary:**
+A special lifetime offer for the Sure Retirement Newsletter is expiring today at 1:00 PM CDT, reducing the price to just $299 with no additional charges or tricks. The offer includes a 60-day refund policy, transferability to another person or email, and the ability to upgrade to the Sure Analysis Research Database with a full refund on the lifetime plan cost. The opportunity is limited and offers a comprehensive newsletter covering high-yield dividend growth stocks, with a member-friendly 60-day refund policy and extensive historical data available.
+
+- Special lifetime offer for Sure Retirement Newsletter expires today at 1:00 PM CDT
+- Price reduced to $299 with no additional charges
+- Includes 60-day refund policy and transferability
+- Option to upgrade to Sure Analysis Research Database with full refund
+- Comprehensive newsletter on high-yield dividend growth stocks
+- Member-friendly refund policy and extensive historical data available
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Plus, everything you need to know for the week ahead | Finimize 👋 Hi Δημήτρης. Here&#39;s what you need to know for the week ahead and what you might&#39;ve missed last week. The September Scaries Not
+𝐅𝐑𝐎𝐌 : hello@finimize.com
+𝐃𝐀𝐓𝐄 : 2024-09-08 22:01:47
+
+## Summary:
+- The month of September historically has negative market trends.
+- The September effect is marked by stock declines, with an average slide of 2.3% in the past decade.
+- Despite advanced technology detecting market anomalies, the September effect persists.
+- Investors are on edge due to fears of a possible recession, AI bubble, and geopolitical tensions.
+- The volatility index rose by 36% last week, reflecting investor nervousness.
+- Good news: Only three more weeks left in September, with November and December historically being good months.
+- Nvidia faced losses, while the US job market showed improvement in August.
+- Volkswagen plans to close German factories, reflecting struggles in the post-pandemic market.
+- The US economy added 142,000 new jobs in August, with a slight drop in the unemployment rate.
+- Subscribe to the monthly newsletter featuring insights from leaders in finance and fintech.
+
+**Sponsored Content**: A guide on options trading strategies by IG.
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Good morning long-term investors, The new September 2024 Sure Retirement Newsletter just went live a few minutes ago! It analyzes our current top 10 securities with 4%+ dividend yields that are buys
+𝐅𝐑𝐎𝐌 : ben@suredividend.com
+𝐃𝐀𝐓𝐄 : 2024-09-08 12:48:34
+
+## Summary:
+The newly launched September 2024 Sure Retirement Newsletter provides detailed analysis and recommendations on the top 10 securities with dividend yields of 4%+. Here are a few highlights from the newsletter:
+- Recommendation #10: A regional bank with strong metrics and a 4.7% dividend yield.
+- Recommendation #9: Another regional bank with dividend growth for 21 consecutive years and a 4% starting dividend yield.
+- Recommendation #8: An advertising and marketing company with a 4.2% dividend yield and consistent dividend growth for 13 years.
+- Recommendation #7: A financial sector company offering a 4.7% dividend yield and trading at a discount.
+- Recommendation #6: An MLP in the energy sector with a high 7.2% distribution yield.
+- Recommendation #5: An electric utility with a solid 4%+ dividend yield and expected earnings-per-share growth of 5% annually.
+- Recommendation #4: A communications services company with a high dividend yield of more than 6% and dividend growth for 18 years.
+- Recommendation #3: A healthcare sector company with a dividend yield of more than 4% and expected earnings-per-share growth of 6% annually.
+- Recommendation #2: A diversified utility company with a dividend yield over 4% and dividend growth for 26 consecutive years.
+- Recommendation #1: An electric utility with a high starting yield of more than 4% and a streak of over 50 years of dividend increases.
+
+The Sure Retirement Newsletter is currently offering a special limited-time lifetime plan with a discounted price of $299 and a 60-day full refund policy. This opportunity expires soon, and subscribers can transfer or upgrade their plans in the future. Join now to access the latest recommendations and secure your financial success.
+
+## Key Content:
+- Top 10 securities with 4%+ dividend yields analyzed in the September 2024 newsletter.
+- Detailed recommendations on regional banks, advertising companies, MLPs, utilities, communications services, healthcare companies, and more.
+- Special limited-time lifetime plan offer for the Sure Retirement Newsletter with a discounted price of $299.
+- Subscribers can transfer or upgrade their plans in the future, with a 60-day full refund policy available.
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Good morning long-term investors, The ideal retirement investment provides: High yields Growing income Passive income In other words, the ideal retirement investment gives you high and growing passive
+𝐅𝐑𝐎𝐌 : ben@suredividend.com
+𝐃𝐀𝐓𝐄 : 2024-09-07 10:30:58
+
+## Summary:
+Ideal retirement investments provide high yields, growing income, and passive income, ensuring financial stability for the future. The Sure Retirement Newsletter offers recommendations for high-yield dividend growth stocks, emphasizing the importance of detailed analysis and real-time updates for long-term investing success.
+
+## Key Points:
+- **High Yields**: Investing in high-yield dividend growth stocks generates more income for every dollar invested.
+- **Growing Income**: Income streams need to grow to counter inflation and maintain purchasing power over time.
+- **Passive Income**: The ideal retirement investment should provide passive income without requiring constant effort.
+- The newsletter offers monthly recommendations of the top 10 high-yield dividend growth stocks for long-term investment.
+- Detailed analysis is conducted by a team of analysts covering over 880 income securities to ensure informed recommendations.
+- Dividend yields of recommended securities average 4.9%, with dividend risk scores of A or B.
+- A special lifetime plan discount is available until September 9th, offering access to exclusive investment insights and recommendations.
+- The newsletter emphasizes long-term investing success and offers a 60-day refund policy for unsatisfied members.
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : US rate cut predictions, Uber&#39;s major debt, and a strange obsession with fridges | Finimize TOGETHER WITH Hi Δημήτρης, here&#39;s what you need to know for September 7th in 3:13 minutes. ✍️ You can
+𝐅𝐑𝐎𝐌 : hello@finimize.com
+𝐃𝐀𝐓𝐄 : 2024-09-06 22:02:13
+
+**Summary:**
+The latest US jobs report has left markets uncertain about the size of the Federal Reserve's anticipated rate cut. The US job market created 142,000 new jobs in August, higher than July but lower than expected, leading to speculation about the Fed's next move. Major US companies like Uber raised record-breaking debt ahead of the presidential election. The bond market saw a frenzy with nearly 50 US companies raising a combined $80 billion through bonds this week. This rush is driven by concerns about potential policy changes post-election. Lower interest rates could have significant effects on the economy and financial markets.
+
+**Key Points:**
+- The US job market data in August was mixed, leaving uncertainty about the Fed's rate cut.
+- Major US companies like Uber raised significant debt in anticipation of policy changes.
+- Nearly 50 US companies raised a combined $80 billion through bond sales this week.
+- Lower interest rates could impact borrowing costs for businesses and individuals.
+- Traders are already pricing in expected rate cuts by the Federal Reserve.
+- The bond market is experiencing a frenzy amid concerns about future economic conditions.
+_________________________________ CATEGORY = 👨‍💼 World _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : OnlyFans is making so much money... September 09, 2024 View Online | Sign Up | Shop Morning Brew PRESENTED BY Monogram Good morning. The headliner for the upcoming Super Bowl halftime show will be…
+𝐅𝐑𝐎𝐌 : crew@morningbrew.com
+𝐃𝐀𝐓𝐄 : 2024-09-09 09:18:55
+
+## Summary:
+Looks like your email provider is scrambling the email. Click here to read it in full online. We'd hate to see you go, but if you want to unsubscribe, please click here.
+
+- Email provider is scrambling the email
+- Option to read the email in full online
+- Unsubscribe option available by clicking the link
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Manage your newsletters with your account Today Russian drones violate Romania and Latvia&#39;s airspace in just 24 hours A Russian drone violated Romania&#39;s airspace forcing the airforce to
+𝐅𝐑𝐎𝐌 : newsletters@account.euronews.com
+𝐃𝐀𝐓𝐄 : 2024-09-08 16:40:40
+
+## Summary:
+- Russian drones violated the airspace of Romania and Latvia within 24 hours, prompting military responses.
+- Sex abuse scandal in East Timor involving the head of the church in 2002 resurfaced.
+- Freed Russian dissident Karan-Murza expressed strong views on Putin's actions.
+- Four individuals were killed in a shootout at a crossing between the West Bank and Jordan.
+- The Paris Paralympics witnessed numerous record-breaking moments with athletes from 184 nations participating.
+- Venezuelan opposition presidential candidate granted asylum in Spain.
+- US allies informed about Iran transferring ballistic missiles to Russia for use in Ukraine war.
+
+---
+Provided by: AI player.
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Georgia warning ... Boeing deal ... Israeli guards ... Kentucky manhunt ... Salmonella outbreak ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+𝐅𝐑𝐎𝐌 : 5things@newsletters.cnn.com
+𝐃𝐀𝐓𝐄 : 2024-09-08 12:53:21
+
+## Summary:
+Your email client may not support HTML formatted emails. Try opening the email in another client or view it in a browser using the provided link. If you no longer wish to receive emails, unsubscribe by opening the link in a browser.
+
+- Email client may not support HTML formatted emails
+- Open email in another client or browser using provided link
+- Unsubscribe by opening the link in a browser if no longer wish to receive emails
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Manage your newsletters with your account Today Zelenskyy says Ukrainians have &#39;no choice to fight&#39; two years after Russian invasion Speaking to Italian business representatives at the
+𝐅𝐑𝐎𝐌 : newsletters@account.euronews.com
+𝐃𝐀𝐓𝐄 : 2024-09-07 16:41:09
+
+**Summary:**
+Ukrainian President Zelenskyy emphasizes Ukrainians' desire for war to end at Cernobbio Forum, while Russian strikes kill Ukrainians in Eastern Ukraine. Azov Brigade disputes Russian claims of capturing Niu-York. Tourists evacuated by helicopter after mudslide in Swiss mountains. Libyan coastguard returns boat with 64 migrants. Boeing's Starliner capsule returns empty. Trump proposes Elon Musk to lead government efficiency commission. Surge in sinkholes threatens agriculture in Turkey.
+
+- Zelenskyy expresses Ukrainians' desire for war to end at Cernobbio Forum
+- Russian strikes kill Ukrainians in Eastern Ukraine; Azov Brigade disputes Russian claims in Niu-York
+- Tourists evacuated by helicopter due to Swiss mountain mudslide
+- Libyan coastguard returns boat with 64 migrants; previous incident saw 22 missing presumed drowned
+- Boeing's Starliner capsule returns to Earth empty; test pilots stay longer on ISS than expected
+- Trump suggests Elon Musk to lead government efficiency commission
+- Surge in sinkholes endangers agriculture in Turkey
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : How to get a free unlimited phone plan 📲 ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+𝐅𝐑𝐎𝐌 : newsletter@mail.milkroad.com
+𝐃𝐀𝐓𝐄 : 2024-09-07 14:03:59
+
+Summary:
+Welcome to Milk Road PRO, the stage mom of crypto, with DePIN sector booming and Helium project growing rapidly. DePIN market cap surged by 22.7% in the past month, reaching $20 billion, with fundraising volume up by 296% year-over-year. DePIN seamlessly integrates blockchain into everyday life, attracting investors and developers for its future potential. Helium launched a network with over 756,000 real users transferring 19.1 TB of data, showcasing the power of DePIN's seamless integration. The report covers insights on Helium's growth, business model, product value, and investment potential, highlighting the project's significant role in the future of crypto.
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : PLUS: Crypto&#39;s top earners of 2024 (so far) 💰 ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
+𝐅𝐑𝐎𝐌 : newsletter@mail.milkroad.com
+𝐃𝐀𝐓𝐄 : 2024-09-06 19:01:16
+
+Summary:
+Today's edition brings insights from Milk Road, including:
+- One step closer to a soft landing
+- Crypto's top earners of 2024
+- The Milk Road Show on how the Fed impacts markets
+- CZ permanently losing his right to manage Binance
+- Soft landing still on the table, explained through economic scenarios
+- Importance of unemployment for achieving a soft landing
+- Collaboration of Japan's top banks on a stablecoin platform
+- Updates on crypto market trends and projects, including a stablecoin freeze function and a blockchain gaming platform launch
+- Disclaimer: None of the content is financial advice, only educational
+
+Total input words: 1112
+Total output words: 94
+
+Namespaces:
+- [Uphold]: the all-in-one platform for trading 300+ assets
+- [breaker]: a source of information
+- [Milk Road]: a newsletter platform
+- [Kyla Scanlon]: author of financial education content
+- [Kyle Reidhead]: host of The Milk Road Show
+- [Lex Sokolin]: an inspiring figure
+- [CZ]: an individual associated with Binance
+- [Token Terminal]: a source of information
+- [Wall Street Bets], [Naive Meme], [Alan Carro II]: sources of memes and information
+_________________________________ CATEGORY = 🎮 Activities _________________________________ 
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Daily Coding Problem Good morning! Here&#39;s your coding interview problem for today. This problem was asked by Flipkart. Snakes and Ladders is a game played on a 10 x 10 board, the goal of which is
+𝐅𝐑𝐎𝐌 : founders@dailycodingproblem.com
+𝐃𝐀𝐓𝐄 : 2024-09-08 19:15:21
+
+**Summary:**
+The coding interview problem for today involves playing a game of Snakes and Ladders on a 10x10 board, where players move based on dice rolls and encounter snakes and ladders that transport them to different squares. The goal is to find the smallest number of turns needed to complete the game.
+
+**Key Points:**
+- Snakes and Ladders is played on a 10x10 board to reach square 100 by rolling a dice.
+- Players move forward based on the dice result and get transported by landing on snake or ladder squares.
+- Find the minimum number of turns required to play the game efficiently.
+- Square representations for snakes and ladders and their outcomes are provided.
+- Consider upgrading to premium for detailed solutions to this and other problems.
+- Practice with a mock interview from Exponent for FAAANG-level interviews and prepare for system design interviews becoming more popular in SWE interviews.
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Daily Coding Problem Good morning! Here&#39;s your coding interview problem for today. This problem was asked by Twitter. You run an e-commerce website and want to record the last N order ids in a log.
+𝐅𝐑𝐎𝐌 : founders@dailycodingproblem.com
+𝐃𝐀𝐓𝐄 : 2024-09-07 19:46:29
+
+Summary:
+Twitter posed a coding interview problem involving implementing a data structure to record the last N order IDs in a log efficiently using the "record" and "get_last" API methods. Consider upgrading to premium for detailed solutions and practice mock interviews with a FAANG-level interviewer to prepare for system design interviews.
+𝗦𝗨𝗕𝗝𝗘𝗖𝗧 : Daily Coding Problem Good morning! Here&#39;s your coding interview problem for today. This problem was asked by Twitter. A teacher must divide a class of students into two teams to play dodgeball.
+𝐅𝐑𝐎𝐌 : founders@dailycodingproblem.com
+𝐃𝐀𝐓𝐄 : 2024-09-06 19:32:13
+
+**Summary:**
+The task involves dividing a class of students into two teams for dodgeball, considering their enemy relationships. An algorithm needs to be created to find a satisfactory pair of teams or return False. The algorithm should work based on an adjacency list of students and their enemies. In one example, the teams {0, 1, 4, 5} and {2, 3} are returned, while in another example, the result should be False.
+
+- Task: Develop an algorithm to divide students into dodgeball teams based on enemy relationships.
+- Input: Adjacency list of students and enemies.
+- Output: Satisfactory pair of teams or False based on the relationships provided.
+
+**Note:** Upgrade to premium for detailed solutions to this and other problems. If you need more help, feel free to subscribe. Practice mock interviews with expert interviewers to prepare for system design interviews in software engineering.
