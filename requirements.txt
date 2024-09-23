@@ -46,16 +46,9 @@ bs4
 langid
 
 ## ========================== Basic Modules for Machine Learning
-scipy
-scikit-learn
 imblearn
-pyspark==3.0.2
 statsmodels
 skrebate
-xgboost
-lime
-shap
-pactools
 
 ## ========================== Basic Modules for Visualizations
 missingno
