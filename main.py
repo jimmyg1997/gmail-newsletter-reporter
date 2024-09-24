@@ -211,23 +211,19 @@ class Controller():
 
         # --------------------------------------------------------------------------------------------------------------------------------- #
         ##  4. (Email Analyzer) Exapnd emails with extra information (body)
-        emails[[ 'label_ids','date','subject', 'from','body','category']] = emails.progress_apply(
+        emails[['label_ids','date','subject', 'from','body','category']] = emails.progress_apply(
             lambda x : self.email_analyzer.expand_with_body_info(x, newsletters_categories),
             axis = 1
         ) 
         self.mk1.logging.logger.info(f"(Controller.run_get_emails) [# emails] [Initially] = {len(emails)}")
-
         ## --------------------------------------------------------------------------------------------------------------------------------- ##
         ## 5. (DataFrame Operations) Remove emails with empty body or empty category
         emails = emails[
             (~emails['body'].isin(self.__null_values)) |
             (~emails['category'].isin(self.__null_values))
         ]
-
         logs["num_emails_filtered"] = len(emails)
-
         self.mk1.logging.logger.info(f"(Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = {len(emails)}")
-
 
         ## --------------------------------------------------------------------------------------------------------------------------------- ##
         ## 6. (Email Analyzer) Expand with (a) statistics (b) and body summary using OpenAI
@@ -248,6 +244,7 @@ class Controller():
             emails             = emails,
             fn_path_summary    = fn_path_summary
         )
+
         ## --------------------------------------------------------------------------------------------------------------------------------- ##
         ## 8. (Reporter) Append the .txt file to google docs named `(<Year> <Month>) Newsletters Summaries`
         doc_reporter_id = self.reporter.get_doc_reporter_id(
@@ -273,13 +270,22 @@ class Controller():
         )
 
         ## --------------------------------------------------------------------------------------------------------------------------------- ##
-        ## 10. (Telegram API) Send summary in 
+        ## 10. (Telegram API) Send summary in telegram chat
         self.telegram_api.set_data(
             summary_per_category = summary_per_category,
             today                = today,
             chat_ids             = chat_ids
         )
         self.telegram_api.run_daily_news_report()
+
+
+        ## --------------------------------------------------------------------------------------------------------------------------------- ##
+        ## 11. (Google Email API) Delete all newsletters emails
+        emails['archive_status'] = emails.progress_apply(
+            lambda x : self.email_analyzer.archive_emails_after_summarizing(x),
+            axis = 1
+        )
+
 
 
 

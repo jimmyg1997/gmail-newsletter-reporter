@@ -56,6 +56,7 @@ class GoogleAPI(object):
         'https://www.googleapis.com/auth/spreadsheets',
         'https://www.googleapis.com/auth/spreadsheets.readonly',
         'https://www.googleapis.com/auth/gmail.readonly',
+        'https://www.googleapis.com/auth/gmail.modify',
         'https://www.googleapis.com/auth/documents'
     ]
     def __init__(self, mk1):
@@ -962,6 +963,61 @@ class GoogleEmailAPI(GoogleAPI):
         except Exception as e:
             self.mk1.logging.logger.error(f"(GoogleEmailAPI.get_email_text_info) Failed to retrieve email info: {e}")
             return {}
+
+    def delete_email_by_id(
+            self, 
+            user_id: str, 
+            email_id: str) -> None:
+        """
+            Deletes an email from the Gmail account using the email ID.
+
+            Args:
+                user_id (str): The ID of the Gmail user (typically 'me' to indicate the authenticated user).
+                email_id (str): The unique ID of the email to delete.
+
+            Returns:
+                None
+        """
+        try:
+            # Deleting the email with the given ID
+            self.service.users().messages().delete(
+                userId = user_id, 
+                id     = email_id
+            ).execute()
+            self.mk1.logging.logger.info(f"(GoogleEmailAPI.delete_email_by_id) Deleted email with ID: {email_id}")
+        except Exception as e:
+            # Log any errors that occur during the deletion process
+            self.mk1.logging.logger.error(f"(GoogleEmailAPI.delete_email_by_id) Failed to delete email with ID: {email_id} - {e}")
+
+    def archive_email_by_id(
+            self, 
+            user_id: str, 
+            email_id: str) -> None:
+        """
+        Archives an email from the Gmail account using the email ID.
+
+        Args:
+            user_id (str): The ID of the Gmail user (typically 'me' to indicate the authenticated user).
+            email_id (str): The unique ID of the email to archive.
+
+        Returns:
+            None
+        """
+        try:
+            # Archiving the email by modifying its labels
+            self.service.users().messages().modify(
+                userId=user_id,
+                id=email_id,
+                body={
+                    'removeLabelIds': ['INBOX']  # Remove from INBOX to archive
+                }
+            ).execute()
+            self.mk1.logging.logger.info(f"(GoogleEmailAPI.archive_email_by_id) Archived email with ID: {email_id}")
+        except Exception as e:
+            raise e
+            # Log any errors that occur during the archiving process
+            self.mk1.logging.logger.error(f"(GoogleEmailAPI.archive_email_by_id) Failed to archive email with ID: {email_id} - {e}")
+
 
 # -------------------------------------- 3. (GOOGLE) DOCS ----------------------------------------- #
 class GoogleDocsAPI(GoogleAPI):
