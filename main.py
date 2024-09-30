@@ -304,10 +304,10 @@ class Controller():
 
         ## _____________________________________________________________________________________________________________________ ##
         ## 12. (Google Email API) Delete all newsletters emails
-        # emails['archive_status'] = emails.progress_apply(
-        #     lambda x : self.email_analyzer.archive_emails_after_summarizing(x),
-        #     axis = 1
-        # )
+        emails['archive_status'] = emails.progress_apply(
+            lambda x : self.email_analyzer.archive_emails_after_summarizing(x),
+            axis = 1
+        )
 
 
 
