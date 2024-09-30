@@ -6,8 +6,9 @@
 #source venv/bin/activate
 
 # Run the Python script
-python3 main.py -ho 26
+python3 main.py --schedule_hour 15 --hours 3 --enable_polling 
 
 # Deactivate the virtual environment
 #deactivate
+
  

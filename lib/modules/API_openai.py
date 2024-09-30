@@ -236,7 +236,7 @@ class OpenaiAPI():
                 # stop              = ["\n"]
             )
 
-            self.mk1.logging.logger.error(f"(OpenaiAPI.generate_summary_chunk) Summary was generated successfully")
+            self.mk1.logging.logger.info(f"(OpenaiAPI.generate_summary_chunk) Summary was generated successfully")
             # Extract the generated content from the response
             return response.choices[0].message.content.strip()
 

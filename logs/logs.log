@@ -1,311 +1,102 @@
-2024-09-24 01:27:38 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 01:27:38 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 01:27:38 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 01:27:38 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 01:27:38 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 01:27:38 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 01:27:38 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 01:27:38 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 01:27:38 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 01:27:42 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 01:27:42 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (41, 4)
-2024-09-24 01:27:42 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 01:27:42 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
-2024-09-24 01:27:43 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 01:27:43 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
-2024-09-24 01:27:43 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
-2024-09-24 01:27:43 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
-2024-09-24 01:27:43 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 18 messages from the past 26 hours
-2024-09-24 01:27:44 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19220ef9e5140922
-2024-09-24 01:27:44 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19220e72ce609096
-2024-09-24 01:27:44 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192206c678481f8a
-2024-09-24 01:27:45 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192205b7f5e69bb7
-2024-09-24 01:27:45 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f8be1dc1a7c6
-2024-09-24 01:27:45 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f85e82a437be
-2024-09-24 01:27:45 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f77df5f94ed5
-2024-09-24 01:27:46 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f5ed2fb5286f
-2024-09-24 01:27:46 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f31bf63c1d59
-2024-09-24 01:27:46 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f28931a1f6a4
-2024-09-24 01:27:46 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
-2024-09-24 01:27:46 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921ea9175dfcb43
-2024-09-24 01:27:46 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921e67086a706d3
-2024-09-24 01:27:47 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921e56ab42cb464
-2024-09-24 01:27:47 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921e21a080685a4
-2024-09-24 01:27:47 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921e0c800941b62
-2024-09-24 01:27:47 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921dad357772a5f
-2024-09-24 01:27:47 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921d431b7b7e2a3
-2024-09-24 01:27:48 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921c9c0db78b2be
-2024-09-24 01:27:48 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 18
-2024-09-24 01:27:48 - INFO - (Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = 7
-2024-09-24 01:27:51 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 01:27:55 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 01:27:58 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:28:50 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 12:28:50 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 12:28:50 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 12:28:50 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 12:28:50 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 12:28:50 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 12:28:50 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 12:28:50 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 12:28:50 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 12:28:53 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:28:53 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (41, 4)
-2024-09-24 12:28:54 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:28:54 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
-2024-09-24 12:28:55 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:28:55 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
-2024-09-24 12:28:55 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
-2024-09-24 12:28:55 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
-2024-09-24 12:28:55 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 2 messages from the past 3 hours
-2024-09-24 12:28:56 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223791c23dc071
-2024-09-24 12:28:56 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223743b8559d90
-2024-09-24 12:28:56 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 2
-2024-09-24 12:29:05 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 12:29:05 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 12:29:05 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 12:29:05 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 12:29:05 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 12:29:05 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 12:29:05 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 12:29:05 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 12:29:05 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 12:29:08 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:29:08 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (41, 4)
-2024-09-24 12:29:09 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:29:09 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
-2024-09-24 12:29:09 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:29:09 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
-2024-09-24 12:29:09 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
-2024-09-24 12:29:09 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
-2024-09-24 12:29:10 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 2 messages from the past 3 hours
-2024-09-24 12:29:10 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223791c23dc071
-2024-09-24 12:29:10 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223743b8559d90
-2024-09-24 12:29:10 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 2
-2024-09-24 12:32:01 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 12:32:01 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 12:32:01 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 12:32:01 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 12:32:02 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 12:32:02 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 12:32:02 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 12:32:02 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 12:32:02 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 12:32:05 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:32:05 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (41, 4)
-2024-09-24 12:32:06 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:32:06 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
-2024-09-24 12:32:07 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:32:07 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
-2024-09-24 12:32:07 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
-2024-09-24 12:32:07 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
-2024-09-24 12:32:08 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 2 messages from the past 3 hours
-2024-09-24 12:32:08 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223791c23dc071
-2024-09-24 12:32:08 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223743b8559d90
-2024-09-24 12:32:24 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 12:32:24 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 12:32:24 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 12:32:24 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 12:32:24 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 12:32:24 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 12:32:24 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 12:32:24 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 12:32:24 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 12:32:27 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:32:27 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (41, 4)
-2024-09-24 12:32:28 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:32:28 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
-2024-09-24 12:32:29 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:32:29 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
-2024-09-24 12:32:29 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
-2024-09-24 12:32:29 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
-2024-09-24 12:32:29 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 2 messages from the past 3 hours
-2024-09-24 12:32:29 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223791c23dc071
-2024-09-24 12:32:30 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223743b8559d90
-2024-09-24 12:32:30 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 2
-2024-09-24 12:33:07 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 12:33:07 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 12:33:07 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 12:33:07 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 12:33:07 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 12:33:07 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 12:33:07 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 12:33:07 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 12:33:07 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 12:33:10 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:33:10 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (41, 4)
-2024-09-24 12:33:11 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:33:11 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
-2024-09-24 12:33:12 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:33:12 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
-2024-09-24 12:33:12 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
-2024-09-24 12:33:12 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
-2024-09-24 12:33:12 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 2 messages from the past 3 hours
-2024-09-24 12:33:13 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223791c23dc071
-2024-09-24 12:33:13 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223743b8559d90
-2024-09-24 12:33:13 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 2
-2024-09-24 12:33:24 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 12:33:24 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 12:33:24 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 12:33:24 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 12:33:24 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 12:33:24 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 12:33:24 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 12:33:24 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 12:33:24 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 12:33:27 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:33:27 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (41, 4)
-2024-09-24 12:33:28 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:33:28 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
-2024-09-24 12:33:29 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:33:29 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
-2024-09-24 12:33:29 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
-2024-09-24 12:33:29 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
-2024-09-24 12:33:30 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 2 messages from the past 3 hours
-2024-09-24 12:33:31 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223791c23dc071
-2024-09-24 12:33:31 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223743b8559d90
-2024-09-24 12:33:31 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 2
-2024-09-24 12:33:31 - INFO - (Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = 1
-2024-09-24 12:33:33 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:33:33 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:43:08 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 12:43:08 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 12:43:08 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 12:43:08 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 12:43:08 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 12:43:08 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 12:43:08 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 12:43:08 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 12:43:08 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 12:43:11 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:43:11 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (41, 4)
-2024-09-24 12:43:12 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:43:12 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
-2024-09-24 12:43:13 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:43:13 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
-2024-09-24 12:43:13 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
-2024-09-24 12:43:13 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
-2024-09-24 12:43:13 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 2 messages from the past 3 hours
-2024-09-24 12:43:14 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223791c23dc071
-2024-09-24 12:43:14 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223743b8559d90
-2024-09-24 12:43:14 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 2
-2024-09-24 12:43:14 - INFO - (Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = 1
-2024-09-24 12:43:16 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:43:17 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:43:19 - ERROR - (GoogleEmailAPI.archive_email_by_id) Failed to archive email with ID: 19223743b8559d90 - <HttpError 403 when requesting https://gmail.googleapis.com/gmail/v1/users/me/messages/19223743b8559d90/modify?alt=json returned "Request had insufficient authentication scopes.". Details: "[{'message': 'Insufficient Permission', 'domain': 'global', 'reason': 'insufficientPermissions'}]">
-2024-09-24 12:43:42 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 12:43:42 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 12:43:42 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 12:43:42 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 12:43:42 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 12:43:42 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 12:43:42 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 12:43:42 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 12:43:42 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 12:43:46 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:43:46 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (41, 4)
-2024-09-24 12:43:46 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:43:46 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
-2024-09-24 12:43:47 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:43:47 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
-2024-09-24 12:43:47 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
-2024-09-24 12:43:47 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
-2024-09-24 12:43:48 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 2 messages from the past 3 hours
-2024-09-24 12:43:48 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223791c23dc071
-2024-09-24 12:43:49 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223743b8559d90
-2024-09-24 12:43:49 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 2
-2024-09-24 12:43:49 - INFO - (Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = 1
-2024-09-24 12:43:51 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:43:54 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:44:40 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 12:44:40 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 12:44:40 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 12:44:40 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 12:44:40 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 12:44:40 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 12:44:40 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 12:44:40 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 12:44:40 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 12:44:42 - ERROR - (Reporter.get_config) Retrieving all config dataframes (newsletters, docs, docs_ids) failed: ('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})
-2024-09-24 12:45:44 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 12:45:44 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 12:45:44 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 12:45:44 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 12:45:53 - INFO - (GoogleAPI.authorizate_user) User authorization for uri http://localhost:8082/ was successful
-2024-09-24 12:45:53 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 12:45:53 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 12:45:53 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 12:45:53 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 12:45:53 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 12:45:56 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:45:56 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (41, 4)
-2024-09-24 12:45:57 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:45:57 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
-2024-09-24 12:45:57 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:45:57 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
-2024-09-24 12:45:57 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
-2024-09-24 12:45:57 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
-2024-09-24 12:45:57 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 2 messages from the past 3 hours
-2024-09-24 12:45:58 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223791c23dc071
-2024-09-24 12:45:58 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223743b8559d90
-2024-09-24 12:45:58 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 2
-2024-09-24 12:45:58 - INFO - (Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = 1
-2024-09-24 12:46:00 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:46:01 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:46:03 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 19223743b8559d90
-2024-09-24 12:46:31 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
-2024-09-24 12:46:31 - INFO - (TelegramAPI.build_client) Service build succeeded
-2024-09-24 12:46:31 - INFO - (TelegramAPI.build_updater) Updated build succeeded
-2024-09-24 12:46:31 - INFO - (OpenaiAPI.build_client) Service build succeeded
-2024-09-24 12:46:31 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
-2024-09-24 12:46:31 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
-2024-09-24 12:46:31 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
-2024-09-24 12:46:31 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
-2024-09-24 12:46:31 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
-2024-09-24 12:46:34 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:46:34 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (41, 4)
-2024-09-24 12:46:35 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:46:35 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
-2024-09-24 12:46:36 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
-2024-09-24 12:46:36 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
-2024-09-24 12:46:36 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
-2024-09-24 12:46:36 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
-2024-09-24 12:46:36 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 16 messages from the past 26 hours
-2024-09-24 12:46:37 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19223791c23dc071
-2024-09-24 12:46:37 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1922358f53c824e6
-2024-09-24 12:46:37 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19222aefff6cd0cd
-2024-09-24 12:46:38 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19222805d70ce11c
-2024-09-24 12:46:38 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1922231b44e9e729
-2024-09-24 12:46:38 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19220ef9e5140922
-2024-09-24 12:46:39 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19220e72ce609096
-2024-09-24 12:46:39 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192206c678481f8a
-2024-09-24 12:46:39 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192205b7f5e69bb7
-2024-09-24 12:46:39 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f8be1dc1a7c6
-2024-09-24 12:46:40 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f85e82a437be
-2024-09-24 12:46:40 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f77df5f94ed5
-2024-09-24 12:46:40 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f5ed2fb5286f
-2024-09-24 12:46:40 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f31bf63c1d59
-2024-09-24 12:46:41 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921f28931a1f6a4
-2024-09-24 12:46:41 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
-2024-09-24 12:46:41 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1921ea9175dfcb43
-2024-09-24 12:46:41 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 16
-2024-09-24 12:46:41 - INFO - (Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = 9
-2024-09-24 12:46:43 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:46:47 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:46:48 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:46:52 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:46:56 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:47:00 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:47:04 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:47:09 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:47:13 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:47:16 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
-2024-09-24 12:47:19 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 19222aefff6cd0cd
-2024-09-24 12:47:19 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 1922231b44e9e729
-2024-09-24 12:47:19 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 19220ef9e5140922
-2024-09-24 12:47:19 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 19220e72ce609096
-2024-09-24 12:47:20 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 192206c678481f8a
-2024-09-24 12:47:20 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 192205b7f5e69bb7
-2024-09-24 12:47:20 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 1921f85e82a437be
-2024-09-24 12:47:21 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 1921f77df5f94ed5
-2024-09-24 12:47:21 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 1921f28931a1f6a4
+2024-09-30 14:14:19 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2024-09-30 14:14:19 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-09-30 14:14:19 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-09-30 14:14:19 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-09-30 14:14:19 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-09-30 14:14:19 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-09-30 14:14:19 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-09-30 14:14:19 - INFO - (TelegramAPI.build_client) Service build succeeded
+2024-09-30 14:14:19 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2024-09-30 14:14:20 - INFO - (Controller.run) All services initilalized
+2024-09-30 14:14:20 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-09-30 14:14:20 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-09-30 14:14:20 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-09-30 14:14:20 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-09-30 14:14:20 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-09-30 14:14:20 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2024-09-30 14:14:32 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-09-30 14:14:32 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - (TelegramAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2024-09-30 14:14:32 - INFO - (Controller.run) All services initilalized
+2024-09-30 14:14:32 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-09-30 14:14:32 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-09-30 14:14:32 - INFO - (Controller.run) [Datetime = 2024-09-30 14:14:32.825796, Schedule Time = 14] All services initilalized (except Telegram)
+2024-09-30 14:14:32 - INFO - (Controller.run) [Datetime = 2024-09-30 14:14:32.825796, Schedule Time = 14] Report being generated ... 
+2024-09-30 14:14:35 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-09-30 14:14:35 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (47, 4)
+2024-09-30 14:14:36 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-09-30 14:14:36 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
+2024-09-30 14:14:37 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-09-30 14:14:37 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
+2024-09-30 14:14:37 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
+2024-09-30 14:14:37 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
+2024-09-30 14:14:38 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 1 messages from the past 3 hours
+2024-09-30 14:14:38 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19242b3e710abb48
+2024-09-30 14:14:38 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 1
+2024-09-30 14:14:38 - INFO - (Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = 1
+2024-09-30 14:14:41 - ERROR - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2024-09-30 14:14:43 - INFO - (Reporter.write_summary_to_file) Appending summaries to file was successful
+2024-09-30 14:15:49 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-09-30 14:15:49 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (2, 1)
+2024-09-30 14:20:28 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2024-09-30 14:20:28 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-09-30 14:20:28 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-09-30 14:20:28 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-09-30 14:20:28 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-09-30 14:20:28 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-09-30 14:20:28 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-09-30 14:20:28 - INFO - (TelegramAPI.build_client) Service build succeeded
+2024-09-30 14:20:28 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2024-09-30 14:20:28 - INFO - (Controller.run) All services initilalized
+2024-09-30 14:20:28 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-09-30 14:20:28 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-09-30 14:20:28 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-09-30 14:20:28 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-09-30 14:20:28 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-09-30 14:20:28 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-09-30 14:20:28 - INFO - (Controller.run) [Datetime = 2024-09-30 14:20:28.806545, Schedule Time = 15] All services initilalized (except Telegram)
+2024-09-30 14:46:25 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2024-09-30 14:46:25 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-09-30 14:46:25 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-09-30 14:46:25 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-09-30 14:46:25 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-09-30 14:46:25 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-09-30 14:46:25 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-09-30 14:46:25 - INFO - (TelegramAPI.build_client) Service build succeeded
+2024-09-30 14:46:25 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2024-09-30 14:47:19 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2024-09-30 14:47:19 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-09-30 14:47:19 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-09-30 14:47:19 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-09-30 14:47:19 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-09-30 14:47:19 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-09-30 14:47:19 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-09-30 14:47:19 - INFO - (TelegramAPI.build_client) Service build succeeded
+2024-09-30 14:47:19 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2024-09-30 14:47:20 - INFO - (Controller.run) All services initilalized
+2024-09-30 14:47:20 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-09-30 14:47:20 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-09-30 14:47:20 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-09-30 14:47:20 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-09-30 14:47:20 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-09-30 14:47:20 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-09-30 14:47:20 - INFO - (Controller.run) [Datetime = 2024-09-30 14:47:20.252654, Schedule Time = 15] All services initilalized (except Telegram)
+2024-09-30 15:47:20 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-09-30 15:47:20 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-09-30 15:47:20 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-09-30 15:47:20 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-09-30 15:47:20 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-09-30 15:47:20 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-09-30 15:47:20 - INFO - (Controller.run) [Datetime = 2024-09-30 15:47:20.282063, Schedule Time = 15] All services initilalized (except Telegram)
+2024-09-30 15:47:20 - INFO - (Controller.run) [Datetime = 2024-09-30 15:47:20.282063, Schedule Time = 15] Report being generated ... 
+2024-09-30 15:47:20 - ERROR - (Reporter.get_config) Retrieving all config dataframes (newsletters, docs, docs_ids) failed: Unable to find the server at sheets.googleapis.com

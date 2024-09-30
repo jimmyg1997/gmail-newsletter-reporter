@@ -94,14 +94,15 @@ class Reporter():
 
     def write_summary_to_file(
         self,
-        config_newsletters : pd.DataFrame,
-        newsletters        : Dict[str, str],
-        emails             : pd.DataFrame,
-        fn_path_summary    : str,
-        include_subject    : bool = False,
-        include_from       : bool = True,
-        include_date       : bool = False,
-        include_summary    : bool = True
+        config_newsletters   : pd.DataFrame,
+        newsletters          : Dict[str, str],
+        emails               : pd.DataFrame,
+        fn_path_summary_txt  : str,
+        fn_path_summary_json : str,
+        include_subject      : bool = False,
+        include_from         : bool = True,
+        include_date         : bool = False,
+        include_summary      : bool = True
     ) -> None:
         """
         Writes summaries of emails categorized by newsletter fields to a specified summary file.
@@ -110,7 +111,8 @@ class Reporter():
             - config_newsletters (pd.DataFrame): DataFrame containing newsletter configuration, including categories.
             - newsletters (Dict[str, str]): Dictionary where keys are categories, and values are newsletter names.
             - emails (pd.DataFrame): DataFrame containing email data, including subject, from, body_clean_summarized, and category.
-            - fn_path_summary (str): Path to the file where summaries will be appended.
+            - fn_path_summary_txt (str): Path to the .txt file where summaries will be appended.
+            - fn_path_summary_json (str): Path to the .json file where summaries will be appended.
 
             Returns:
             - None: The function writes to the file and logs success or failure messages.
@@ -123,12 +125,12 @@ class Reporter():
                 category: [] for category in config_newsletters['Field'].unique()
             }
 
-            with open(fn_path_summary, 'w+') as file:
+            with open(fn_path_summary_txt, 'w+') as file:
                 for category in newsletters.keys():
                     emails_category = emails[emails['category'] == category].reset_index()
 
                     if not emails_category.empty:
-                        file.write(f"_________________________________ CATEGORY = {category} _________________________________ \n")
+                        file.write(f"<category>{category}<category>\n")
 
                         for idx, email in emails_category.iterrows():
                             print(f"[{category}] [{idx + 1}/{len(emails_category)}] Processing ...")
@@ -159,7 +161,9 @@ class Reporter():
  
                             email_str += "\n"
                             summary_per_category[category].append(email_str)                            
-                            
+
+            with open(fn_path_summary_json, 'w') as file:
+                json.dump(summary_per_category, file, indent = 4)  # indent for pretty printing
 
             self.mk1.logging.logger.info("(Reporter.write_summary_to_file) Appending summaries to file was successful")
             return summary_per_category
