@@ -184,9 +184,10 @@ class GoogleAPI(object):
                 port                   = port,
                 access_type            = 'offline',      # Enable offline access so that you can refresh an access token without re-prompting the user for permission. Recommended for web server apps.
                 open_browser           = True,
-                include_granted_scopes = 'true' # Enable incremental authorization. Recommended as a best practice.
+                prompt                 = 'consent',      # Forces consent prompt to get refresh token
+                include_granted_scopes = 'true'          # Enable incremental authorization. Recommended as a best practice.
             )
-            #print(credentials.token, credentials.refresh_token)
+
             credentials_info[app]["refresh_token"] = credentials.refresh_token #credentials.token # TODO  : change back to refresh token
             self.mk1.logging.logger.info(f"(GoogleAPI.authorizate_user) User authorization for uri {redirect_uri} was successful")
             return credentials_info
@@ -205,12 +206,35 @@ class GoogleAPI(object):
             json.dump(credentials_info, file)
 
 
+    def get_new_access_token(self, credentials_info, app : str = "web"):
+        try :
+            url = "https://oauth2.googleapis.com/token"
+            data = {
+                'client_id'     : credentials_info[app]["client_id"],
+                'client_secret' : credentials_info[app]["client_secret"],
+                'refresh_token' : credentials_info[app]["refresh_token"],
+                'grant_type'    : 'refresh_token'
+            }
+
+            response = requests.post(url, data = data)
+            new_access_token = response.json().get("access_token")
+
+            self.mk1.logging.logger.info("(GoogleAPI.get_new_access_token) New access token based on the refresh token retrieval was successful. Token = {new_access_token}")
+            return new_access_token
+
+        except Exception as e:
+            self.mk1.logging.logger.error(f"(GoogleAPI.get_new_access_token) Retrieving new access token (through refresh_token) failed : {e}")
+            raise e
+
+
+
     def get_credentials(self, credentials_info, app : str = "web") :
         try :
             if self.token_format == "json" :
                 #credentials = Credentials.from_authorized_user_info(credentials_info[app])
+                new_access_token = self.get_new_access_token(credentials_info, app)
                 credentials = Credentials(
-                    credentials_info[app]["refresh_token"],
+                    new_access_token, #credentials_info[app]["refresh_token"], # replace with actual token
                     refresh_token = credentials_info[app]["refresh_token"],
                     token_uri     = credentials_info[app]["token_uri"],
                     client_id     = credentials_info[app]["client_id"],
@@ -233,18 +257,15 @@ class GoogleAPI(object):
     #     try:
     #         if credentials.valid :
     #             return credentials
-
     #         elif credentials and credentials.expired and credentials.refresh_token:
     #             credentials.refresh(Request())
     #             self.mk1.logging.logger.info("(GoogleAPI.refresh_credentials) Token refreshed")
     #             return credentials
-
     #         # elif self.token_format == "json" :
     #         #     credentials_info = self.authorize_user(force = True)
     #         #     credentials = self.get_credentials(credentials_info)
     #         #     self.mk1.logging.logger.info("(GoogleAPI.refresh_credentials) Token refreshed")
     #         #     return credentials
-
     #         else :
     #             # Token can't be refreshed
     #             self.mk1.logging.logger.error("(GoogleAPI.refresh_credentials) Token refresh failed")
@@ -1337,22 +1358,37 @@ class GoogleDriveAPI(GoogleAPI):
             self.mk1.logging.logger.error(f"(GoogleDriveAPI.enable_sharable_link) File's {file_id} URL retrieval failed: {e}")
             raise e
 
-    def copy_file(self, file_id: str, parent_folder: str) -> Dict:
-        """Create a copy of a file."""
+    def copy_file(
+            self, 
+            file_id: str, 
+            parent_folder: str
+        ) -> Dict:
+        """ Create a copy of a file.
+
+            Notes
+            * The REFRESH_TOKEN  can not be used as ACCESS_TOKEN
+        
+        """
         url = f"https://www.googleapis.com/drive/v3/files/{file_id}/copy"
         body = {
             "parents": [parent_folder],
             "mimeType": "application/vnd.google-apps.spreadsheet"
         }
+
+
         try:
-            response = requests.post(url, headers=self.auth_header, data=json.dumps(body))
+            response = requests.post(
+                url, 
+                headers = self.auth_header, 
+                data    = json.dumps(body)
+            )
             result = self.request_check(response)
             file_info = json.loads(result.text)
             self.mk1.logging.logger.info(f"(GoogleDriveAPI.copy_file) File copied successfully from file_id: {file_id} to parent_folder: {parent_folder}")
             return {
-                "copy_id": file_info["id"],
-                "copy_name": file_info["name"],
-                "copy_type": self.mime_to_str(file_info["mimeType"])
+                "copy_id"   : file_info["id"],
+                "copy_name" : file_info["name"],
+                "copy_type" : self.mime_to_str(file_info["mimeType"])
             }
         except Exception as e:
             self.mk1.logging.logger.error(f"(GoogleDriveAPI.copy_file) Copying file failed: {e}")

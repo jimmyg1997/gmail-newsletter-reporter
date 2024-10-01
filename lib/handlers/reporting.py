@@ -315,14 +315,10 @@ class Reporter():
 
     def _append_summary_to_doc_reporter(
             self, 
-            #fn_path_summary: str,
             summary_per_category : Dict[str,str],
             doc_reporter_id      : str
         ) -> None:
         try : 
-            # with open(fn_path_summary, 'r') as file:
-            #     summary = file.read()
-
             for category, summary in summary_per_category.items():
                 start_index = self.google_docs_api.get_document(
                     document_id = doc_reporter_id
@@ -350,14 +346,6 @@ class Reporter():
                             heading_id   = "NORMAL_TEXT"
                         )
                         
-
-
-            # self.google_docs_api.append_text_to_document(
-            #     document_id  = doc_reporter_id,
-            #     text_content = summary,
-            #     start_index  = all_text_content['content'][-1]['endIndex'] - 1,
-            #     heading_id   = "NORMAL_TEXT"
-            # )
             self.mk1.logging.logger.info(f"(Reporter._append_summary_to_doc_reporter) Appending text to doc ID : {doc_reporter_id} was successful")
 
         except Exception as e:
@@ -463,7 +451,6 @@ class Reporter():
     def append_summary_to_doc_reporter(
             self,
             today                : dt.datetime, 
-            #fn_path_summary : str, 
             doc_reporter_id      : str,
             summary_per_category : Dict[str,str],
             logs                 : pd.DataFrame,
@@ -487,7 +474,6 @@ class Reporter():
                 tablefmt        = tablefmt
             )
             self._append_summary_to_doc_reporter(
-                #fn_path_summary = fn_path_summary,
                 summary_per_category = summary_per_category,
                 doc_reporter_id      = doc_reporter_id
             )
