@@ -424,7 +424,7 @@ class GoogleSheetsAPI(GoogleAPI):
             return pd.DataFrame()
 
     # GET requests
-    @retry(exceptions=requests.RequestException, tries=10, delay=2, jitter=(0, 2))
+    @retry((requests.RequestException, requests.exceptions.HTTPError), tries=3, delay=2, jitter=(0, 2))
     def get_df_from_tab(self, spreadsheet_id: str, spreadsheet_range_name: str, spreadsheet_has_index: bool = True, spreadsheet_has_headers: bool = True, spreadsheet_empty_value: str = "") -> pd.DataFrame:
         try:
             result = self.service.spreadsheets().values().get(
@@ -566,25 +566,46 @@ class GoogleSheetsAPI(GoogleAPI):
             spreadsheet_has_index   : bool = False,
             spreadsheet_has_headers : bool = True,
             dimension               : str = "ROWS",
-            value_input_option      : str = "USER_ENTERED" # RAW
+            value_input_option      : str = "USER_ENTERED", # RAW
+            clear_before_write      : bool = False  # New argument
         ) -> Dict:
         """
-
+            Write DataFrame to a Google Sheets tab with an option to clear the range before writing.
+            
             Args
             ----
-                :param: df - The dataftame that need to be translated into list
-                :var: values - The transformed dataframe
-                     - Example : [[15], [10], [5]] (Column), [[15, 10, 5]] (Row), [[15, 10, 5], [25, 20, 15]] (2D Array)
-
+            :param df: The DataFrame to be written into the spreadsheet.
+            :param spreadsheet_id: ID of the spreadsheet.
+            :param spreadsheet_range_name: The target range in the sheet (e.g. 'Sheet1!A1:C10').
+            :param spreadsheet_has_index: Whether the DataFrame has an index to include in the sheet.
+            :param spreadsheet_has_headers: Whether the DataFrame headers should be written.
+            :param dimension: "ROWS" or "COLUMNS", how the data should be written.
+            :param value_input_option: How the data is interpreted in the sheet, either "RAW" or "USER_ENTERED".
+            :param clear_before_write: If True, the target range will be cleared before writing new data.
+            
+            Returns
+            -------
+            :return: A dictionary with updated information.
         """
-        url  = f"https://sheets.googleapis.com/v4/spreadsheets/{spreadsheet_id}/values:batchUpdate"
+        # Clear the range if the flag is set
+        if clear_before_write:
+            clear_url = f"https://sheets.googleapis.com/v4/spreadsheets/{spreadsheet_id}/values/{spreadsheet_range_name}:clear"
+            clear_response = requests.post(url=clear_url, headers=self.auth_header)
+            
+            # Check for errors in the clear request
+            if clear_response.status_code in self.__server_err_codes:
+                raise requests.RequestException("Got 5XX error from Sheets API when clearing range")
+            self.request_check(clear_response)
+            self.mk1.logging.logger.info(f"Cleared range {spreadsheet_range_name} before writing new data.")
 
-        ## *-*-*-*-*-*-*-*-*-*-*-*-*-*- Preparing the request body -*-*-*-*-*-*-*-*-*-*-*-*-*-* ##
-        values =  self.df_to_list(
+        # Prepare the values from the DataFrame
+        values = self.df_to_list(
             df          = df,
             has_index   = spreadsheet_has_index,
             has_headers = spreadsheet_has_headers
         )
+        
+        # Prepare the request body
         body = {
             "valueInputOption": value_input_option,
             "data": [{
@@ -594,25 +615,29 @@ class GoogleSheetsAPI(GoogleAPI):
             }]
         }
 
-        ## *-*-*-*-*-*-*-*-*-*-*-*-*-*- Requesting -*-*-*-*-*-*-*-*-*-*-*-*-*-* ##
+        # URL for the batch update
+        url = f"https://sheets.googleapis.com/v4/spreadsheets/{spreadsheet_id}/values:batchUpdate"
+
+        # Send the request to write the data
         response = requests.post(
             url     = url,
             headers = self.auth_header,
             data    = json.dumps(body)
         )
 
-        ## *-*-*-*-*-*-*-*-*-*-*-*-*-*- Processing the response -*-*-*-*-*-*-*-*-*-*-*-*-*-* ##
+        # Check for errors in the write request
         if response.status_code in self.__server_err_codes:
-            # This both triggers @retry() and raises an error when we exhaust it
             raise requests.RequestException("Got 5XX error from Sheets API when writing data")
+        
         response = self.request_check(response)
         result = json.loads(response.text)
-        result =  {
+        
+        # Return relevant information about the update
+        return {
             "spreadsheet_id" : result["responses"][0]["spreadsheetId"],
             "updated_range"  : result["responses"][0]["updatedRange"],
             "updated_cells"  : result["totalUpdatedCells"]
         }
-        return result
 
     def append_rows_to_tab(
             self,

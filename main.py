@@ -298,8 +298,7 @@ class Controller():
             today                = today,
             chat_ids             = chat_ids
         )
-        self.telegram_api.run_daily_news_report(
-        )
+        self.telegram_api.run_daily_news_report()
 
 
         ## _____________________________________________________________________________________________________________________ ##
@@ -325,10 +324,9 @@ class Controller():
 
             self.run_initialization(enable_telegram = False)
             self.mk1.logging.logger.info(f"(Controller.run) [Datetime = {today}, Schedule Time = {schedule_hour}] All services initilalized (except Telegram)")
-            print(f"(Controller.run) [Datetime = {today}, Schedule Time = {schedule_hour}] All services initilalized (except Telegram)")
+
             if schedule_hour == today.hour : 
                 self.mk1.logging.logger.info(f"(Controller.run) [Datetime = {today}, Schedule Time = {schedule_hour}] Report being generated ... ")
-                print(f"(Controller.run) [Datetime = {today}, Schedule Time = {schedule_hour}] Report being generated ... ")
                 self.run_get_email_report()
 
             time.sleep(60 * 60) # refreshing = 60 s * 60 min = every 1h check

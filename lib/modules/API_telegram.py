@@ -144,7 +144,48 @@ class TelegramAPI():
                 spreadsheet_has_index   = False,
                 spreadsheet_has_headers = False
             )
-        update.message.reply_text(f'Your chat ID is {chat_id} and has been registered for the Daily Newsletter Reporter')
+            update.message.reply_text(f'Your chat ID is {chat_id} and has been registered for the Daily Newsletter Reporter\n𝐍𝐨. 𝐨𝐟 𝐫𝐞𝐠𝐢𝐬𝐭𝐞𝐫𝐞𝐝 𝐮𝐬𝐞𝐫𝐬 = {chat_ids.shape[0] + 1}')
+        else : 
+            update.message.reply_text(f'Your chat ID is {chat_id} is already registered!\n𝐍𝐨. 𝐨𝐟 𝐫𝐞𝐠𝐢𝐬𝐭𝐞𝐫𝐞𝐝 𝐮𝐬𝐞𝐫𝐬 = {chat_ids.shape[0]}')
+
+
+    def unregister_chat_id_command(
+            self, 
+            update  : Update, 
+            context : CallbackContext
+        ) -> None:
+
+        chat_id = str(update.message.chat_id)
+        sheets_reporter_id                  = str(self.mk1.config.get("google_sheets","reporter_id"))
+        sheets_reporter_tab_config_telegram = str(self.mk1.config.get("google_sheets","reporter_tab_config_telegram"))
+
+        # Fetch the current chat IDs from the Google Sheets tab
+        chat_ids = self.google_sheets_api.get_df_from_tab(
+            spreadsheet_id          = sheets_reporter_id,
+            spreadsheet_range_name  = sheets_reporter_tab_config_telegram,
+            spreadsheet_has_index   = False
+        )
+
+        # Check if the chat ID exists in the Google Sheets tab
+        if chat_id in chat_ids['chat_ids'].values:
+            # Remove the chat ID
+            updated_chat_ids = chat_ids[chat_ids['chat_ids'] != chat_id]
+
+            # Update the Google Sheets tab by overwriting with the updated DataFrame
+            self.google_sheets_api.write_df_to_tab(
+                df                      = updated_chat_ids,
+                spreadsheet_id          = sheets_reporter_id,
+                spreadsheet_range_name  = sheets_reporter_tab_config_telegram,
+                spreadsheet_has_index   = False,
+                spreadsheet_has_headers = True,  # Assuming the sheet has headers]
+                clear_before_write      = True
+            )
+            update.message.reply_text(f'Your chat ID {chat_id} has been unregistered from the Daily Newsletter Reporter. \n 𝐍𝐨. 𝐨𝐟 𝐫𝐞𝐠𝐢𝐬𝐭𝐞𝐫𝐞𝐝 𝐮𝐬𝐞𝐫𝐬 = {updated_chat_ids.shape[0]}')
+        else:
+            update.message.reply_text(f'Your chat ID {chat_id} was not found in the registered list.\n𝐍𝐨. 𝐨𝐟 𝐫𝐞𝐠𝐢𝐬𝐭𝐞𝐫𝐞𝐝 𝐮𝐬𝐞𝐫𝐬 = {chat_ids.shape[0]}')
+
+
+
 
 
     def get_latest_report_command(
@@ -173,6 +214,7 @@ class TelegramAPI():
             "Here are the commands you can use:\n\n"
             "/start - Start the bot and receive daily updates.\n"
             "/register_chat_id - Register your chat ID.\n"
+            "/unregister_chat_id - Unregister your chat ID.\n"
             "/get_latest_report - Get most recent newsletter daily report.\n"
             "/help - Get a list of available commands."
         )
@@ -185,6 +227,7 @@ class TelegramAPI():
         """ Register command handlers for the bot. """
         self.dispatcher.add_handler(CommandHandler("start", self.start_command))
         self.dispatcher.add_handler(CommandHandler("register_chat_id", self.register_chat_id_command))
+        self.dispatcher.add_handler(CommandHandler("unregister_chat_id", self.unregister_chat_id_command))
         self.dispatcher.add_handler(CommandHandler("get_latest_report", self.get_latest_report_command))
         self.dispatcher.add_handler(CommandHandler("help", self.help_command))
 
@@ -276,7 +319,19 @@ class TelegramAPI():
 
         :param context: The context object containing additional data.
         """
+    
+        # Introductory message
+        today = dt.datetime.now()
+
+        for chat_id in self.chat_ids : 
+            self.service.send_message(
+                chat_id = chat_id,
+                text    = f"📰 𝐃𝐀𝐈𝐋𝐘 𝐍𝐄𝐖𝐒 𝐑𝐄𝐏𝐎𝐑𝐓 - {today.strftime('%Y.%m.%d')} 🗓️"
+            )
+
+        # Newsletters summaries
         messages = []
+
         for key, values in self.summary_per_category.items():
             d = self.today.strftime('%Y.%m.%d')
             message = f"{key} ({d})\n\n"
@@ -297,7 +352,10 @@ class TelegramAPI():
     def run_daily_news_report(self) -> None:
         """ Schedule and run the daily news report."""
         day_at = (dt.datetime.now() + dt.timedelta(minutes = 1)).strftime("%H:%M")
-        schedule.every().day.at(day_at).do(self.send_news_report, None)  # Schedule for 1 minute later
+        schedule.every().day.at(day_at).do(
+            self.send_news_report, 
+            None
+        )  # Schedule for 1 minute later
 
         while True:
             schedule.run_pending()
