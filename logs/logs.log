@@ -2872,3 +2872,122 @@
 2024-10-18 11:04:14 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 19299be51a519335
 2024-10-18 11:04:14 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 19299a0fae05af41
 2024-10-18 11:04:15 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 192999154648d421
+2024-10-20 20:58:30 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2024-10-20 20:58:30 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2024-10-20 20:58:47 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - (GoogleAPI.get_new_access_token) New access token based on the refresh token retrieval was successful. Token = {new_access_token}
+2024-10-20 20:58:47 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-10-20 20:58:47 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - (TelegramAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2024-10-20 20:58:47 - INFO - (Controller.run) All services initilalized
+2024-10-20 20:58:47 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - (GoogleAPI.get_new_access_token) New access token based on the refresh token retrieval was successful. Token = {new_access_token}
+2024-10-20 20:58:47 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-10-20 20:58:47 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-10-20 20:58:47 - INFO - (Controller.run) [Datetime = 2024-10-20 20:58:47.469157, Schedule Time = 7] All services initilalized (except Telegram)
+2024-10-20 20:59:05 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2024-10-20 20:59:05 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-10-20 20:59:05 - INFO - (GoogleAPI.get_new_access_token) New access token based on the refresh token retrieval was successful. Token = {new_access_token}
+2024-10-20 20:59:05 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-10-20 20:59:05 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-10-20 20:59:05 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-10-20 20:59:05 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-10-20 20:59:05 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-10-20 20:59:05 - INFO - (TelegramAPI.build_client) Service build succeeded
+2024-10-20 20:59:05 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2024-10-20 20:59:06 - INFO - (Controller.run) All services initilalized
+2024-10-20 20:59:06 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-10-20 20:59:06 - INFO - (GoogleAPI.get_new_access_token) New access token based on the refresh token retrieval was successful. Token = {new_access_token}
+2024-10-20 20:59:06 - INFO - (GoogleAPI.get_credentials) Credentials Loaded.
+2024-10-20 20:59:06 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-10-20 20:59:06 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-10-20 20:59:06 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-10-20 20:59:06 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-10-20 20:59:06 - INFO - (Controller.run) [Datetime = 2024-10-20 20:59:06.064892, Schedule Time = 20] All services initilalized (except Telegram)
+2024-10-20 20:59:06 - INFO - (Controller.run) [Datetime = 2024-10-20 20:59:06.064892, Schedule Time = 20] Report being generated ... 
+2024-10-20 20:59:08 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-10-20 20:59:08 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (50, 4)
+2024-10-20 20:59:09 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-10-20 20:59:09 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
+2024-10-20 20:59:11 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-10-20 20:59:11 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
+2024-10-20 20:59:11 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
+2024-10-20 20:59:11 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
+2024-10-20 20:59:11 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 13 messages from the past 30 hours
+2024-10-20 20:59:11 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192ab2c4b95e7380
+2024-10-20 20:59:11 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192ab2565edd7cfc
+2024-10-20 20:59:12 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192aace0505e13e8
+2024-10-20 20:59:12 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192aa71d5e4c4624
+2024-10-20 20:59:12 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192aa39b2cddcf51
+2024-10-20 20:59:12 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192a9a8b6f5d722b
+2024-10-20 20:59:12 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192a9a03378025f0
+2024-10-20 20:59:13 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192a97f4bcec4efb
+2024-10-20 20:59:13 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192a9002329b8d46
+2024-10-20 20:59:13 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192a879b3971db0d
+2024-10-20 20:59:13 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192a84bcf5b21379
+2024-10-20 20:59:14 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192a5a45d5135681
+2024-10-20 20:59:14 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 192a586ff95b3f84
+2024-10-20 20:59:14 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 13
+2024-10-20 20:59:14 - INFO - (Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = 5
+2024-10-20 20:59:16 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2024-10-20 20:59:20 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2024-10-20 20:59:20 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2024-10-20 20:59:24 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2024-10-20 20:59:28 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2024-10-20 20:59:31 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2024-10-20 20:59:33 - INFO - (Reporter.write_summary_to_file) Appending summaries to file was successful
+2024-10-20 20:59:33 - INFO - (Reporter.get_doc_reporter_id) ID was retrieved successfully. Docs ID = 1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng 
+2024-10-20 20:59:36 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 20:59:36 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `HEADING_1`, font family `Proxima Nova` successfully
+2024-10-20 20:59:36 - INFO - (Reporter._append_header_to_doc_reporter) Appending the header 2024-10-20
+ to doc ID : 1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng was successful
+2024-10-20 20:59:38 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 20:59:39 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `NORMAL_TEXT`, font family `Courier New` successfully
+2024-10-20 20:59:39 - INFO - (Reporter._append_logs_to_doc_reporter) Appending the logs to doc ID : 1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng was successful
+2024-10-20 20:59:41 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 20:59:42 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-10-20 20:59:44 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 20:59:45 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-10-20 20:59:46 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 20:59:47 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-10-20 20:59:49 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 20:59:50 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2024-10-20 20:59:53 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 20:59:53 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2024-10-20 20:59:55 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 20:59:56 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-10-20 20:59:58 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 20:59:59 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2024-10-20 21:00:00 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 21:00:00 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2024-10-20 21:00:02 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 21:00:02 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2024-10-20 21:00:03 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 21:00:04 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-10-20 21:00:05 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` successfully
+2024-10-20 21:00:06 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-10-20 21:00:06 - INFO - (Reporter._append_summary_to_doc_reporter) Appending text to doc ID : 1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng was successful
+2024-10-20 21:00:06 - INFO - (Reporter.append_text_to_doc) Appending text to doc ID : 1HFoh-uZOv3yW2D1xzPDpItD16n7NYcqQcs3YM3rg3Ng was successful
+2024-10-20 21:00:06 - INFO - (GoogleSheetsAPI.df_to_list) DataFrame converted to list successfully
+2024-10-20 21:00:07 - INFO - Updated range: logs!A157:I157, Rows updated: 1
+2024-10-20 21:00:07 - INFO - (DataHandler.append_data_to_google_sheets) Data Appended 
+2024-10-20 21:00:08 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-10-20 21:00:08 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (4, 1)
+2024-10-20 21:00:08 - INFO - (DataHandler.get_number_of_google_sheets_tab) Tab exists.4 rows 1 columns retrieved successfully
+2024-10-20 21:01:16 - INFO - (TelegramAPI.run_daily_news_report) Last run time: 2024-10-20 21:01:16.279416
+2024-10-20 21:01:16 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 192aace0505e13e8
+2024-10-20 21:01:16 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 192a9a8b6f5d722b
+2024-10-20 21:01:17 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 192a97f4bcec4efb
+2024-10-20 21:01:17 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 192a9002329b8d46
+2024-10-20 21:01:17 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 192a5a45d5135681
+2024-10-21 07:06:01 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-10-21 07:06:01 - ERROR - (GoogleAPI.get_new_access_token) Retrieving new access token (through refresh_token) failed : HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1521f1ac0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2024-10-21 07:06:01 - ERROR - (GoogleAPI.get_credentials) Credentials loading failed : HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1521f1ac0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
