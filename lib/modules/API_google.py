@@ -69,7 +69,7 @@ class GoogleAPI(object):
 
         ## *-*-*-*-*-*-*-*- Client Info -*-*-*-*-*-*-*-* #
         #self.credentials = self.oauth_with_refresh()
-        self.credentials = self.oauth(force = True)
+        self.credentials = self.oauth(force = False)
         self.auth_header = self.get_auth_header()
 
 
