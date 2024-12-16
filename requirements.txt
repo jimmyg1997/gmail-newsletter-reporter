@@ -25,7 +25,6 @@ google-auth-oauthlib==0.4.1
 oauth2client
 tiktoken
 openai
-urllib3==1.26.20
 python-telegram-bot==13.7
 telegram
 schedule
@@ -47,9 +46,16 @@ bs4
 langid
 
 ## ========================== Basic Modules for Machine Learning
+scipy
+scikit-learn
 imblearn
+pyspark==3.0.2
 statsmodels
 skrebate
+xgboost
+lime
+shap
+pactools
 
 ## ========================== Basic Modules for Visualizations
 missingno

@@ -39,6 +39,9 @@ from urllib.parse     import quote as uquote
 ## Google  API
 from google.auth.exceptions         import GoogleAuthError
 from google_auth_oauthlib.flow 		import InstalledAppFlow, Flow
+from oauth2client.client            import flow_from_clientsecrets
+from oauth2client.tools             import argparser, run_flow
+from oauth2client.file              import Storage
 from google.auth.transport.requests import Request
 from google.oauth2.credentials      import Credentials
 from googleapiclient.discovery      import build
@@ -59,6 +62,19 @@ class GoogleAPI(object):
         'https://www.googleapis.com/auth/gmail.modify',
         'https://www.googleapis.com/auth/documents'
     ]
+    MISSING_CLIENT_SECRETS_MESSAGE = f"""
+        WARNING: Please configure OAuth 2.0
+
+        To make this sample run you will need to populate the client_secrets.json file :
+
+        with information from the API Console
+        https://console.cloud.google.com/
+
+        For more information about the client_secrets.json file format, please visit:
+        https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
+    """
+    VALID_PRIVACY_STATUSES = ("public", "private", "unlisted") 
+    
     def __init__(self, mk1):
         self.mk1 = mk1
         ## *-*-*-*-*-*-*-*- Configuration (attributes) -*-*-*-*-*-*-*-* ##
@@ -69,13 +85,35 @@ class GoogleAPI(object):
 
         ## *-*-*-*-*-*-*-*- Client Info -*-*-*-*-*-*-*-* #
         #self.credentials = self.oauth_with_refresh()
-        self.credentials = self.oauth(force = False)
+        #self.credentials = self.oauth(force = True)
+        self.credentials = self.oauth_v2()
         self.auth_header = self.get_auth_header()
 
 
     #-*-*-*-*-*-*-*-*-*-*-*-*-*-*#
     #     Client & Exceptions    #
     #-*-*-*-*-*-*-*-*-*-*-*-*-*-*#
+
+    def oauth_v2(self):
+        """
+        This method retrieves the Google service.
+
+        Returns:
+            any: The authenticated Google service
+        """
+        flow = flow_from_clientsecrets(
+            filename = self.token_file_path,
+            scope    = self.SCOPES,
+            message  = self.MISSING_CLIENT_SECRETS_MESSAGE
+        )
+        storage = Storage( f"{self.token_file_path.rsplit('.', 1)[0]}_accessed.json")
+        credentials = storage.get()
+
+        if credentials is None or credentials.invalid:
+            oauth_args, _ = argparser.parse_known_args()
+            credentials = run_flow(flow, storage, oauth_args)
+
+        return credentials
 
     def oauth_with_refresh(self) :
         """
