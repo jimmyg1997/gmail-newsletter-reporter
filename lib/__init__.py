@@ -3,7 +3,7 @@
 
 """
 Created on 11/07/2022
-@author: Dimitrioss Georgiou
+@author: Dimitrios Georgiou
 """
 import yaml
 import os
