@@ -4908,3 +4908,111 @@
 2024-12-18 15:55:25 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 193cefc04da945ed
 2024-12-18 15:55:26 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 193cefb589f0da24
 2024-12-18 15:55:26 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 193cdd7a741649dd
+2024-12-27 18:22:17 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2024-12-27 18:22:17 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-12-27 18:22:17 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-12-27 18:22:17 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-12-27 18:22:17 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-12-27 18:22:17 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-12-27 18:22:17 - INFO - (TelegramAPI.build_client) Service build succeeded
+2024-12-27 18:22:17 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2024-12-27 18:22:18 - INFO - (Controller.run) All services initilalized
+2024-12-27 18:22:18 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-12-27 18:22:18 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-12-27 18:22:18 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-12-27 18:22:18 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-12-27 18:22:18 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-12-27 18:22:18 - INFO - (Controller.run) [Datetime = 2024-12-27 18:22:18.688188, Schedule Time = 18] All services initilalized (except Telegram)
+2024-12-27 18:22:18 - INFO - (Controller.run) [Datetime = 2024-12-27 18:22:18.688188, Schedule Time = 18] Report being generated ... 
+2024-12-27 18:22:21 - ERROR - (Reporter.get_config) Retrieving all config dataframes (newsletters, docs, docs_ids) failed: invalid_grant: Token has been expired or revoked.
+2024-12-27 18:31:53 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2024-12-27 18:31:53 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-12-27 18:32:06 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-12-27 18:32:06 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-12-27 18:32:06 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-12-27 18:32:06 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-12-27 18:32:06 - INFO - (TelegramAPI.build_client) Service build succeeded
+2024-12-27 18:32:06 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2024-12-27 18:32:08 - INFO - (Controller.run) All services initilalized
+2024-12-27 18:32:08 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-12-27 18:32:08 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-12-27 18:32:08 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-12-27 18:32:08 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-12-27 18:32:08 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-12-27 18:32:08 - INFO - (Controller.run) [Datetime = 2024-12-27 18:32:08.003175, Schedule Time = 18] All services initilalized (except Telegram)
+2024-12-27 18:32:08 - INFO - (Controller.run) [Datetime = 2024-12-27 18:32:08.003175, Schedule Time = 18] Report being generated ... 
+2024-12-27 18:32:10 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-12-27 18:32:10 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (50, 4)
+2024-12-27 18:32:11 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-12-27 18:32:11 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
+2024-12-27 18:32:12 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-12-27 18:32:12 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
+2024-12-27 18:32:12 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
+2024-12-27 18:32:12 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
+2024-12-27 18:32:13 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 1 messages from the past 50 hours
+2024-12-27 18:32:14 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 194092db93c2709d
+2024-12-27 18:32:14 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 1
+2024-12-27 18:32:14 - INFO - (Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = 1
+2024-12-27 18:32:21 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2024-12-27 18:33:13 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2024-12-27 18:33:13 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-12-27 18:33:13 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-12-27 18:33:13 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-12-27 18:33:13 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-12-27 18:33:13 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-12-27 18:33:13 - INFO - (TelegramAPI.build_client) Service build succeeded
+2024-12-27 18:33:13 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2024-12-27 18:33:14 - INFO - (Controller.run) All services initilalized
+2024-12-27 18:33:14 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2024-12-27 18:33:14 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2024-12-27 18:33:14 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2024-12-27 18:33:14 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2024-12-27 18:33:14 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2024-12-27 18:33:14 - INFO - (Controller.run) [Datetime = 2024-12-27 18:33:14.787430, Schedule Time = 18] All services initilalized (except Telegram)
+2024-12-27 18:33:14 - INFO - (Controller.run) [Datetime = 2024-12-27 18:33:14.787430, Schedule Time = 18] Report being generated ... 
+2024-12-27 18:33:16 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-12-27 18:33:16 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (50, 4)
+2024-12-27 18:33:17 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-12-27 18:33:17 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
+2024-12-27 18:33:18 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-12-27 18:33:18 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
+2024-12-27 18:33:18 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
+2024-12-27 18:33:18 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
+2024-12-27 18:33:19 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 1 messages from the past 100 hours
+2024-12-27 18:33:20 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 194092db93c2709d
+2024-12-27 18:33:20 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 1
+2024-12-27 18:33:20 - INFO - (Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = 1
+2024-12-27 18:33:22 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2024-12-27 18:33:24 - INFO - (Reporter.write_summary_to_file) Appending summaries to file was successful
+2024-12-27 18:33:24 - INFO - (Reporter.get_doc_reporter_id) ID was retrieved successfully. Docs ID = 1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU 
+2024-12-27 18:33:29 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` successfully
+2024-12-27 18:33:30 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` with style `HEADING_1`, font family `Proxima Nova` successfully
+2024-12-27 18:33:30 - INFO - (Reporter._append_header_to_doc_reporter) Appending the header 2024-12-27
+ to doc ID : 1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU was successful
+2024-12-27 18:33:33 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` successfully
+2024-12-27 18:33:34 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` with style `NORMAL_TEXT`, font family `Courier New` successfully
+2024-12-27 18:33:34 - INFO - (Reporter._append_logs_to_doc_reporter) Appending the logs to doc ID : 1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU was successful
+2024-12-27 18:33:36 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` successfully
+2024-12-27 18:33:37 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-12-27 18:33:39 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` successfully
+2024-12-27 18:33:40 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-12-27 18:33:42 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` successfully
+2024-12-27 18:33:43 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-12-27 18:33:45 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` successfully
+2024-12-27 18:33:47 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-12-27 18:33:49 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` successfully
+2024-12-27 18:33:50 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2024-12-27 18:33:52 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` successfully
+2024-12-27 18:33:53 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-12-27 18:33:55 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` successfully
+2024-12-27 18:33:56 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU` with style `HEADING_3`, font family `Proxima Nova` successfully
+2024-12-27 18:33:56 - INFO - (Reporter._append_summary_to_doc_reporter) Appending text to doc ID : 1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU was successful
+2024-12-27 18:33:56 - INFO - (Reporter.append_text_to_doc) Appending text to doc ID : 1MB2RLwOIILrHGAdRrwLVlp7EogPP1CTgSYZZK-uCqVU was successful
+2024-12-27 18:33:56 - INFO - (GoogleSheetsAPI.df_to_list) DataFrame converted to list successfully
+2024-12-27 18:33:57 - INFO - Updated range: logs!A210:I210, Rows updated: 1
+2024-12-27 18:33:57 - INFO - (DataHandler.append_data_to_google_sheets) Data Appended 
+2024-12-27 18:33:58 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2024-12-27 18:33:58 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (4, 1)
+2024-12-27 18:33:58 - INFO - (DataHandler.get_number_of_google_sheets_tab) Tab exists.4 rows 1 columns retrieved successfully
+2024-12-27 18:34:18 - INFO - (TelegramAPI.run_daily_news_report) Last run time: 2024-12-27 18:34:18.049095
+2024-12-27 18:34:18 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 194092db93c2709d
