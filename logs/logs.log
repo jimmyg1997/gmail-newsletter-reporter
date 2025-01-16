@@ -5463,3 +5463,321 @@
 2025-01-08 21:31:28 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 19422ed3ae6c010d
 2025-01-08 21:31:28 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 1942044260967f48
 2025-01-08 21:31:28 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 1941dc76d74bd06d
+2025-01-13 02:48:21 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2025-01-13 02:48:21 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:48:21 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:48:21 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:48:21 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:48:21 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:48:21 - INFO - (TelegramAPI.build_client) Service build succeeded
+2025-01-13 02:48:21 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2025-01-13 02:48:21 - INFO - (Controller.run) All services initilalized
+2025-01-13 02:48:21 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:48:21 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:48:21 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:48:21 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:48:21 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:48:21 - INFO - (Controller.run) [Datetime = 2025-01-13 02:48:21.378749, Schedule Time = 6] All services initilalized (except Telegram)
+2025-01-13 02:48:34 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2025-01-13 02:48:35 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:48:35 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:48:35 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:48:35 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:48:35 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:48:35 - INFO - (TelegramAPI.build_client) Service build succeeded
+2025-01-13 02:48:35 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2025-01-13 02:48:35 - INFO - (Controller.run) All services initilalized
+2025-01-13 02:48:35 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:48:35 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:48:35 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:48:35 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:48:35 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:48:35 - INFO - (Controller.run) [Datetime = 2025-01-13 02:48:35.196320, Schedule Time = 6] All services initilalized (except Telegram)
+2025-01-13 02:48:54 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2025-01-13 02:48:54 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:48:54 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:48:54 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:48:54 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:48:54 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:48:54 - INFO - (TelegramAPI.build_client) Service build succeeded
+2025-01-13 02:48:54 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2025-01-13 02:48:54 - INFO - (Controller.run) All services initilalized
+2025-01-13 02:48:54 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:48:54 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:48:54 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:48:54 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:48:54 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:48:54 - INFO - (Controller.run) [Datetime = 2025-01-13 02:48:54.475853, Schedule Time = 2] All services initilalized (except Telegram)
+2025-01-13 02:48:54 - INFO - (Controller.run) [Datetime = 2025-01-13 02:48:54.475853, Schedule Time = 2] Report being generated ... 
+2025-01-13 02:48:56 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:48:56 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (53, 4)
+2025-01-13 02:48:57 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:48:57 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
+2025-01-13 02:48:57 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:48:57 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
+2025-01-13 02:48:57 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
+2025-01-13 02:48:57 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
+2025-01-13 02:48:58 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 11 messages from the past 60 hours
+2025-01-13 02:48:58 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-13 02:48:58 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945cd6c8273e162
+2025-01-13 02:52:18 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2025-01-13 02:52:18 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:52:18 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:52:18 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:52:18 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:52:18 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:52:18 - INFO - (TelegramAPI.build_client) Service build succeeded
+2025-01-13 02:52:18 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2025-01-13 02:52:18 - INFO - (Controller.run) All services initilalized
+2025-01-13 02:52:18 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:52:18 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:52:18 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:52:18 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:52:18 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:52:18 - INFO - (Controller.run) [Datetime = 2025-01-13 02:52:18.706748, Schedule Time = 2] All services initilalized (except Telegram)
+2025-01-13 02:52:18 - INFO - (Controller.run) [Datetime = 2025-01-13 02:52:18.706748, Schedule Time = 2] Report being generated ... 
+2025-01-13 02:52:19 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:52:19 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (53, 4)
+2025-01-13 02:52:20 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:52:20 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
+2025-01-13 02:52:20 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:52:20 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
+2025-01-13 02:52:20 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
+2025-01-13 02:52:20 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
+2025-01-13 02:52:21 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 11 messages from the past 60 hours
+2025-01-13 02:52:21 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-13 02:52:21 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945cd6c8273e162
+2025-01-13 02:52:21 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-13 02:52:21 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945c5c968f48430
+2025-01-13 02:52:21 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945b92ccc2f2375
+2025-01-13 02:52:22 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945b31088a08e88
+2025-01-13 02:52:22 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945b129fd03726d
+2025-01-13 02:52:22 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945b0db4047269b
+2025-01-13 02:52:23 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945a747f5edbe6a
+2025-01-13 02:52:23 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-13 02:52:23 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945a692ec1eb4ab
+2025-01-13 02:52:23 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19457c2bf0cfe2a1
+2025-01-13 02:53:57 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2025-01-13 02:53:57 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:53:57 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:53:57 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:53:57 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:53:57 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:53:57 - INFO - (TelegramAPI.build_client) Service build succeeded
+2025-01-13 02:53:57 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2025-01-13 02:53:57 - INFO - (Controller.run) All services initilalized
+2025-01-13 02:53:57 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:53:57 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:53:57 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:53:57 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:53:57 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:53:57 - INFO - (Controller.run) [Datetime = 2025-01-13 02:53:57.953315, Schedule Time = 2] All services initilalized (except Telegram)
+2025-01-13 02:53:57 - INFO - (Controller.run) [Datetime = 2025-01-13 02:53:57.953315, Schedule Time = 2] Report being generated ... 
+2025-01-13 02:53:59 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:53:59 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (53, 4)
+2025-01-13 02:53:59 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:53:59 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
+2025-01-13 02:54:00 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:54:00 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
+2025-01-13 02:54:00 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
+2025-01-13 02:54:00 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
+2025-01-13 02:54:00 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 11 messages from the past 60 hours
+2025-01-13 02:54:00 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-13 02:54:00 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945cd6c8273e162
+2025-01-13 02:54:00 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-13 02:54:00 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945c5c968f48430
+2025-01-13 02:54:01 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945b92ccc2f2375
+2025-01-13 02:54:01 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945b31088a08e88
+2025-01-13 02:57:24 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2025-01-13 02:57:24 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:57:24 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:57:24 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:57:24 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:57:24 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:57:24 - INFO - (TelegramAPI.build_client) Service build succeeded
+2025-01-13 02:57:24 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2025-01-13 02:57:24 - INFO - (Controller.run) All services initilalized
+2025-01-13 02:57:24 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:57:24 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:57:24 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:57:24 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:57:24 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:57:24 - INFO - (Controller.run) [Datetime = 2025-01-13 02:57:24.800933, Schedule Time = 2] All services initilalized (except Telegram)
+2025-01-13 02:57:24 - INFO - (Controller.run) [Datetime = 2025-01-13 02:57:24.800933, Schedule Time = 2] Report being generated ... 
+2025-01-13 02:57:25 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:57:25 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (53, 4)
+2025-01-13 02:57:25 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:57:25 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
+2025-01-13 02:57:25 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:57:25 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
+2025-01-13 02:57:25 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
+2025-01-13 02:57:25 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
+2025-01-13 02:57:26 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 11 messages from the past 60 hours
+2025-01-13 02:57:26 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-13 02:57:26 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945cd6c8273e162
+2025-01-13 02:57:26 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-13 02:57:26 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945c5c968f48430
+2025-01-13 02:59:10 - INFO - -------------------------------------- Gmail Reporter (gmail_reporter) Started ..
+2025-01-13 02:59:10 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:59:10 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:59:10 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:59:10 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:59:10 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:59:10 - INFO - (TelegramAPI.build_client) Service build succeeded
+2025-01-13 02:59:10 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2025-01-13 02:59:10 - INFO - (Controller.run) All services initilalized
+2025-01-13 02:59:10 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-13 02:59:10 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-13 02:59:10 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-13 02:59:10 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-13 02:59:10 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-13 02:59:10 - INFO - (Controller.run) [Datetime = 2025-01-13 02:59:10.498530, Schedule Time = 2] All services initilalized (except Telegram)
+2025-01-13 02:59:10 - INFO - (Controller.run) [Datetime = 2025-01-13 02:59:10.498530, Schedule Time = 2] Report being generated ... 
+2025-01-13 02:59:11 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:59:11 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (53, 4)
+2025-01-13 02:59:11 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:59:11 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
+2025-01-13 02:59:12 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-13 02:59:12 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
+2025-01-13 02:59:12 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
+2025-01-13 02:59:12 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
+2025-01-13 02:59:12 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 11 messages from the past 60 hours
+2025-01-13 02:59:12 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-13 02:59:12 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945cd6c8273e162
+2025-01-13 02:59:12 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-13 02:59:12 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1945c5c968f48430
+2025-01-16 13:39:25 - INFO - -------------------------------------- Gmail Newsletter Reporter (gmail_newsletter_reporter) Started ..
+2025-01-16 13:39:25 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-16 13:39:25 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-16 13:39:25 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-16 13:39:25 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-16 13:39:25 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-16 13:39:25 - INFO - (TelegramAPI.build_client) Service build succeeded
+2025-01-16 13:39:25 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2025-01-16 13:39:25 - INFO - (Controller.run) All services initilalized
+2025-01-16 13:39:26 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-16 13:39:26 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-16 13:39:26 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-16 13:39:26 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-16 13:39:26 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-16 13:39:26 - INFO - (Controller.run) [Datetime = 2025-01-16 13:39:25.982126, Schedule Time = 13] All services initilalized (except Telegram)
+2025-01-16 13:39:26 - INFO - (Controller.run) [Datetime = 2025-01-16 13:39:25.982126, Schedule Time = 13] Report being generated ... 
+2025-01-16 13:39:27 - ERROR - (Reporter.get_config) Retrieving all config dataframes (newsletters, docs, docs_ids) failed: invalid_grant: Token has been expired or revoked.
+2025-01-16 13:55:09 - INFO - -------------------------------------- Gmail Newsletter Reporter (gmail_newsletter_reporter) Started ..
+2025-01-16 13:55:09 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-16 13:55:18 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-16 13:55:18 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-16 13:55:18 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-16 13:55:18 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-16 13:55:18 - INFO - (TelegramAPI.build_client) Service build succeeded
+2025-01-16 13:55:18 - INFO - (TelegramAPI.build_updater) Updated build succeeded
+2025-01-16 13:55:19 - INFO - (Controller.run) All services initilalized
+2025-01-16 13:55:19 - INFO - (OpenaiAPI.build_client) Service build succeeded
+2025-01-16 13:55:19 - INFO - (GoogleSheetsAPI.build_client) Service build succeeded
+2025-01-16 13:55:19 - INFO - (GoogleEmailAPI.build_client) Service build succeeded
+2025-01-16 13:55:19 - INFO - (GoogleDriveAPI.build_client) Service build succeeded
+2025-01-16 13:55:19 - INFO - (GoogleDocsAPI.build_client) Service build succeeded
+2025-01-16 13:55:19 - INFO - (Controller.run) [Datetime = 2025-01-16 13:55:19.123075, Schedule Time = 13] All services initilalized (except Telegram)
+2025-01-16 13:55:19 - INFO - (Controller.run) [Datetime = 2025-01-16 13:55:19.123075, Schedule Time = 13] Report being generated ... 
+2025-01-16 13:55:20 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-16 13:55:20 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (53, 4)
+2025-01-16 13:55:21 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-16 13:55:21 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (35, 4)
+2025-01-16 13:55:22 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-16 13:55:22 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (1, 2)
+2025-01-16 13:55:22 - INFO - (Reporter.get_config) All config dataframes (newsletters, docs, docs_ids) were retrieved succesfully
+2025-01-16 13:55:22 - INFO - (Reporter.get_config_enabled_newsletters) Newsletters Config was retrieved succesfully
+2025-01-16 13:55:22 - INFO - (GoogleEmailAPI.get_emails_from_past_days) Retrieved 23 messages from the past 60 hours
+2025-01-16 13:55:22 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946f2eb88f9b548
+2025-01-16 13:55:23 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946f2606929dd70
+2025-01-16 13:55:23 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946eeb7cf799333
+2025-01-16 13:55:23 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946ec7c25f9208f
+2025-01-16 13:55:23 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946ea13bb2b30ff
+2025-01-16 13:55:24 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946ea1185c81ef0
+2025-01-16 13:55:24 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946d7c6c5389946
+2025-01-16 13:55:24 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946bef1cfa91aef
+2025-01-16 13:55:24 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946beb284b7a40e
+2025-01-16 13:55:25 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-16 13:55:25 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946bdef19077101
+2025-01-16 13:55:25 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946b233c1858c14
+2025-01-16 13:55:25 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946a9b788a3f6f9
+2025-01-16 13:55:25 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-16 13:55:25 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946a4aba4455cf1
+2025-01-16 13:55:26 - INFO - (GoogleEmailAPI.get_email_body) Email body has no data.
+2025-01-16 13:55:26 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946a40cf0461a58
+2025-01-16 13:55:26 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19469b2eb2763beb
+2025-01-16 13:55:26 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19469a671d8a7db8
+2025-01-16 13:55:27 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 194698e22e1dc981
+2025-01-16 13:55:27 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 194697aa2ca9e8d8
+2025-01-16 13:55:27 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 194672bb32e7f5e1
+2025-01-16 13:55:28 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19466d2b24249cd3
+2025-01-16 13:55:28 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19465a8f13fa5160
+2025-01-16 13:55:28 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 19464da5a3110905
+2025-01-16 13:55:28 - INFO - (GoogleEmailAPI.get_email_text_info) Retrieved email info for ID: 1946467233e38bf0
+2025-01-16 13:55:28 - INFO - (Controller.run_get_emails) [# emails] [Initially] = 23
+2025-01-16 13:55:28 - INFO - (Controller.run_get_emails) [# emails] [Keeping only the newsletters interested] = 7
+2025-01-16 13:55:32 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:33 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:33 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:37 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:37 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:41 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:44 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:45 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:48 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:48 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:50 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:53 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:55 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:55:59 - INFO - (OpenaiAPI.generate_summary_chunk) Summary was generated successfully
+2025-01-16 13:56:01 - INFO - (Reporter.write_summary_to_file) Appending summaries to file was successful
+2025-01-16 13:56:01 - INFO - (Reporter.get_doc_reporter_id) ID was retrieved successfully. Docs ID = 1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E 
+2025-01-16 13:56:03 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:04 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `HEADING_1`, font family `Proxima Nova` successfully
+2025-01-16 13:56:04 - INFO - (Reporter._append_header_to_doc_reporter) Appending the header 2025-01-16
+ to doc ID : 1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E was successful
+2025-01-16 13:56:05 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:06 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `NORMAL_TEXT`, font family `Courier New` successfully
+2025-01-16 13:56:06 - INFO - (Reporter._append_logs_to_doc_reporter) Appending the logs to doc ID : 1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E was successful
+2025-01-16 13:56:08 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:08 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `HEADING_3`, font family `Proxima Nova` successfully
+2025-01-16 13:56:09 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:10 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `HEADING_3`, font family `Proxima Nova` successfully
+2025-01-16 13:56:11 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:12 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `HEADING_3`, font family `Proxima Nova` successfully
+2025-01-16 13:56:13 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:14 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2025-01-16 13:56:15 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:16 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `HEADING_3`, font family `Proxima Nova` successfully
+2025-01-16 13:56:17 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:18 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2025-01-16 13:56:18 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:19 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2025-01-16 13:56:20 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:20 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2025-01-16 13:56:21 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:22 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2025-01-16 13:56:23 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:23 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `HEADING_3`, font family `Proxima Nova` successfully
+2025-01-16 13:56:24 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:25 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `HEADING_3`, font family `Proxima Nova` successfully
+2025-01-16 13:56:26 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:27 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2025-01-16 13:56:28 - INFO - (GoogleDocsAPI.get_document) Retrieved document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` successfully
+2025-01-16 13:56:29 - INFO - (GoogleDocsAPI.append_text_to_document) Appended text to document `1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E` with style `NORMAL_TEXT`, font family `Proxima Nova` successfully
+2025-01-16 13:56:29 - INFO - (Reporter._append_summary_to_doc_reporter) Appending text to doc ID : 1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E was successful
+2025-01-16 13:56:29 - INFO - (Reporter.append_text_to_doc) Appending text to doc ID : 1qwBYlSj1GYvhJvWTqZa5RTMSHTqP8ghuTD7JqCve_7E was successful
+2025-01-16 13:56:29 - INFO - (GoogleSheetsAPI.df_to_list) DataFrame converted to list successfully
+2025-01-16 13:56:30 - INFO - Updated range: logs!A220:I220, Rows updated: 1
+2025-01-16 13:56:30 - INFO - (DataHandler.append_data_to_google_sheets) Data Appended 
+2025-01-16 13:56:31 - INFO - (GoogleSheetsAPI.result_to_df) Result converted to DataFrame successfully
+2025-01-16 13:56:31 - INFO - (GoogleSheetsAPI.get_df_from_tab) Data loaded. Shape = (4, 1)
+2025-01-16 13:56:31 - INFO - (DataHandler.get_number_of_google_sheets_tab) Tab exists.4 rows 1 columns retrieved successfully
+2025-01-16 13:57:07 - INFO - (TelegramAPI.run_daily_news_report) Last run time: 2025-01-16 13:57:07.721141
+2025-01-16 13:57:07 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 1946eeb7cf799333
+2025-01-16 13:57:08 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 1946ea13bb2b30ff
+2025-01-16 13:57:08 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 1946ea1185c81ef0
+2025-01-16 13:57:08 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 1946d7c6c5389946
+2025-01-16 13:57:09 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 1946a9b788a3f6f9
+2025-01-16 13:57:09 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 194698e22e1dc981
+2025-01-16 13:57:09 - INFO - (GoogleEmailAPI.archive_email_by_id) Archived email with ID: 194697aa2ca9e8d8

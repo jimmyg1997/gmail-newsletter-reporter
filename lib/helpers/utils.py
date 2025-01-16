@@ -1,17 +1,20 @@
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-    [*] Description : Utilities Functions for the current automation
+    [*] Description : Utilities Functions 
     [*] Author      : dgeorgiou3@gmail.com
-    [*] Date        : Jan, 2024
+    [*] Date        : JAN2025
     [*] Links       :
 """
 
-import os, ssl, stat, subprocess, sys
+import os
+import ssl
+import stat
+import subprocess
+import sys
 import os.path
 from itertools import zip_longest
 from typing import Dict, Any, List
-import pandas as pd
 
 STAT_0o775 = ( stat.S_IRUSR | stat.S_IWUSR | stat.S_IXUSR
              | stat.S_IRGRP | stat.S_IWGRP | stat.S_IXGRP

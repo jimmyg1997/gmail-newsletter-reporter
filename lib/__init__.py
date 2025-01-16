@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 """
-Created on 11/07/2022
 @author: Dimitrios Georgiou
 """
 import yaml
@@ -24,7 +23,7 @@ import os
 #     print(f"{env_path} is missing {e} and that's the only value it needs")
 #     raise e
     
-    
+
 # _secrets_path = os.path.join("secrets/", ENVIRONMENT, "secrets.yaml")
 # _config_path  = os.path.join("config/", ENVIRONMENT, "config.yaml")
 

@@ -1,11 +1,13 @@
-# All Projects
-venv/
+# Basic
 *.pyc
 *.pyo
 __pycache__/
 *.DS_Store
-logs/
+
+# Projects
+logs/*
+notebooks/*
+config/secrets/*
 
 # Current Project
 storage/reporting/*
-storage/
