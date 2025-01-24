@@ -1,6 +1,7 @@
 # Gmail Newsletter Reporter 📬📊
 
 Gmail Reporter is a Python-based automation project that integrates Gmail, Google Sheets, Google Docs, and OpenAI APIs to streamline email summarization and report generation. It leverages advanced APIs and CLI configurations to provide a seamless experience for managing and analyzing email communications.
+
 ---
 
 ## 🚀 **Features**
