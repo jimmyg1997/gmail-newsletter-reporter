@@ -111,7 +111,14 @@ Gmail Reporter is a Python-based automation project that integrates Gmail, Googl
    - Go back to the Control Center at the tab `config_docs` and paste the id eg. `xxxx` on the cell `E3`. This is important so that the code knows the location of the drive folder to generate the reports
    - *Note* : make sure ot have enough space in Google Drive for all these operations
 
-<div style="text-align: center;"> <video width="640" height="480" controls> <source src="./storage/videos/google_sheets_api.mov" type="video/mp4"> Your browser does not support the video tag. </video> </div>
+
+<div style="text-align: center;"> 
+  <video width="640" height="480" controls> 
+    <source src="https://github.com/jimmyg1997/gmail-newsletter-reporter/raw/main/storage/videos/google_sheets_api.mov" type="video/mp4"> 
+    Your browser does not support the video tag. 
+  </video> 
+</div>
+
 
 5. **Set Up Environment Variables:** (~10min)
 - Copy the `config/config.ini.example` file and rename the copy to `config/config.ini` 
