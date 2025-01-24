@@ -31,6 +31,7 @@ class OpenaiAPI:
 
         ## __________ *** Initializing (attributes) *** _______
         self.token_key = str(self.mk1.config.get("api_openai", "token_key"))
+        self.model_name = str(self.mk1.config.get("openai", "model_nme"))
 
         ## __________ *** Initializing (client) *** __________
         self.service = self.build_client()
@@ -192,7 +193,7 @@ class OpenaiAPI:
                 {"role": "user", "content": prompt}
             ]
             response = self.service.chat.completions.create(
-                model="gpt-3.5-turbo-0125",
+                model=self.model_name,
                 messages=messages,
                 temperature=0.8,
                 max_tokens=500,

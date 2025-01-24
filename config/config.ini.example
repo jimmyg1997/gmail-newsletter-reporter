@@ -42,6 +42,9 @@ token_key =
 [api_openai]
 token_key = 
 
+[openai]
+model_name = gpt-3.5-turbo-0125
+
 ## *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* ##
 ##                                        GOOGLE                                         ##
 ## *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* ##
@@ -67,7 +70,7 @@ service_name = drive
 version      = v3
 
 [google_sheets]
-reporter_id                     = 178qbmHT8iEItMLe1pPD2LLj4_Q8SGZ2bFABwVwO3710
+reporter_id                     = 
 reporter_tab_config_newsletters = config_newsletters!A1:D
 reporter_tab_config_docs        = config_docs!A5:D
 reporter_tab_config_docs_ids    = config_docs!D2:E3
