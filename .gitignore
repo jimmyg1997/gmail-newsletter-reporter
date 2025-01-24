@@ -8,6 +8,7 @@ __pycache__/
 logs/*
 notebooks/*
 config/secrets/*
+config/config.ini
 
 # Current Project
 storage/reporting/*
