@@ -112,9 +112,9 @@ Gmail Reporter is a Python-based automation project that integrates Gmail, Googl
    - *Note* : make sure ot have enough space in Google Drive for all these operations
 
 
-<div style="text-align: center;">
+<p align="center">
   <img src="https://github.com/jimmyg1997/gmail-newsletter-reporter/blob/master/storage/gif/google_sheets_api.gif" width="640" height="480" />
-</div>
+</p>
 
 
 
